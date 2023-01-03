@@ -18,3 +18,15 @@ Write is distributed under the terms of the GNU GPL.
 CSS normalisation by normalize.css https://github.com/necolas/normalize.css/
 */
 
+a[target="_NEW"] {
+    display: none;
+}
+
+iframe.pb-banner1,
+.pb-footer {
+    display: none !important;
+}
+
+footer + br {
+    display: none;
+}
