@@ -74,7 +74,7 @@
 					?>
 				</p>
 			<?php endif; ?>
-		</div><!-- .site-branding -->
+		</div>
 
 		<header id="ci-header" class="ci-header">
 			<nav class="navbar px-3 p-xl-0 ">
@@ -88,35 +88,6 @@
 					<a class="navbar-brand ms-5 ms-sm-0" href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>">
 						<img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/logo/logo-text.png" alt="Logo" width="130px">
 					</a>
-
-					<div class="navbar-user d-block d-xl-none">
-						<div class="dropdown">
-							<button class="dropdown-toggle dropdown-hide-arrow" data-bs-toggle="dropdown">
-								<i class="fal fa-circle-user"></i>
-							</button>
-							<ul class="dropdown-menu dropdown-menu-end">
-								<li>
-									<a class="dropdown-item" href="<?php echo esc_url(home_url('/oxanh/tai-khoan/')); ?>">
-										<i class="far fa-user me-3"></i>Quản lý tài khoản
-									</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="<?php echo esc_url(home_url('/oxanh/')); ?>">
-										<i class="far fa-lock-keyhole me-3"></i>Đăng nhập
-									</a>
-								</li>
-								<li>
-									<a class="dropdown-item" href="<?php echo esc_url(home_url('/oxanh/')); ?>">
-										<i class="far fa-key-skeleton me-3"></i>Đăng kí
-									</a>
-								</li>
-								<li>
-									<hr class="dropdown-divider">
-								</li>
-								<li><a class="dropdown-item" href="tel:0339869338">Hotline: 0339.869.338</a></li>
-							</ul>
-						</div>
-					</div>
 
 					<?php wp_nav_menu(
 						array(
@@ -163,7 +134,7 @@
 
 						<div class="navbar-nu navbar-user">
 							<div class="dropdown d-flex align-items-center">
-								<a class="navbar-icon" href="<?php echo esc_url(home_url('/oxanh/')); ?>">
+								<a class="navbar-icon" href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>">
 									<i class="fal fa-circle-user"></i>
 									<span class="ms-3 d-none d-sm-block">Đăng nhập</span>
 								</a>
