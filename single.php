@@ -15,32 +15,24 @@ elseif ('oxanh' == get_post_type()) :
 else :
 	get_header();
 endif;
+
+$slug = get_post_field('post_name', get_post());
+
 ?>
 
-<main class="site-main col-lg-10 mx-auto p-3 py-md-3">
-	<div class="row g-5">
-		<div id="primary" class="col-md-8">
+<main id="ci-content" class="ci-content">
 
-			<?php
-			while (have_posts()) :
+	<?php
+	while (have_posts()) :
 
-				the_post();
-				
-				if ('bhhk' == get_post_type()) :
-					get_header('bhhk');
-					get_template_part('template-parts/bhhk/content', get_post_type());
-				elseif ('oxanh' == get_post_type()) :
-					get_template_part('template-parts/oxanh/content', get_post_type());
-				else :
-					get_template_part('template-parts/content', get_post_type());
-				endif;
+		the_post();
 
-			endwhile; // End of the loop.
-			?>
+		get_template_part('' . get_post_type() . '/pages/content', $slug);
+		// get_template_part('template-parts/' . get_post_type() . '/content', $slug);
 
-		</div><!-- .row g-5-->
-		<?php get_sidebar(); ?>
-	</div><!-- .col-md-8 -->
+	endwhile; // End of the loop.
+	?>
+
 </main><!-- #main -->
 
 <?php
