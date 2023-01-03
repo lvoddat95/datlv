@@ -48,7 +48,9 @@
 
 <body <?php body_class(); ?>>
 
-	<?php wp_body_open(); ?>
+	<?php 
+	// wp_body_open(); 
+	?>
 
 	<div id="page" class="site">
 
@@ -83,7 +85,7 @@
 						<b class="icon-bar"></b>
 					</button>
 
-					<a class="navbar-brand" href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>">
+					<a class="navbar-brand ms-5 ms-sm-0" href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>">
 						<img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/logo/logo-text.png" alt="Logo" width="130px">
 					</a>
 
@@ -99,12 +101,12 @@
 									</a>
 								</li>
 								<li>
-									<a class="dropdown-item" href="<?php echo esc_url(home_url('/oxanh//')); ?>">
+									<a class="dropdown-item" href="<?php echo esc_url(home_url('/oxanh/')); ?>">
 										<i class="far fa-lock-keyhole me-3"></i>Đăng nhập
 									</a>
 								</li>
 								<li>
-									<a class="dropdown-item" href="<?php echo esc_url(home_url('/oxanh//')); ?>">
+									<a class="dropdown-item" href="<?php echo esc_url(home_url('/oxanh/')); ?>">
 										<i class="far fa-key-skeleton me-3"></i>Đăng kí
 									</a>
 								</li>
@@ -120,40 +122,59 @@
 						array(
 							'theme_location' 	=> 'main-menu',
 							'menu_id'        	=> 'main-menu',
-							'menu_class'     	=> 'nav navbar-nav me-auto',
+							'menu_class'     	=> 'nav navbar-nav m-auto',
 							'container'			=> false,
 						)
 					); ?>
 
-					<div class="navbar-right d-none d-xl-block">
-						<form class="d-flex align-items-center">
-							<div class="ci-menu-link d-flex align-items-center me-5">
-								<div class="ci-menu-link__item">
-									<svg class="ci-menu-user-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z">
-										</path>
-									</svg>
-									<div class="ci-menu-link__item">
-										<a href="<?php echo HTTP_PATH . 'pages/dang-nhap2.php'; ?>">
-											Đăng nhập
+					<div class="navbar-right d-flex align-items-center">
+
+						<div class="navbar-nu navbar-notification">
+							<div class="dropdown">
+								<button class="dropdown-toggle dropdown-hide-arrow navbar-icon" data-bs-toggle="dropdown">
+									<i class="fal fa-bell"></i>
+								</button>
+								<div class="dropdown-menu dropdown-menu-end">
+									<h3 class="notifi-top">Tin nhắn hệ thông</h3>
+									<div class="notifi-middle">
+										<a class="notifi-item" href="">
+											<p>Cập nhật đối với tài khoản Lê Văn A </p>
+											<span>Thay đổi liên quan đến "Gói G2" Vào ngày 28/11/2022 11:33</span>
+										</a>
+										<a class="notifi-item" href="">
+											<p>Cập nhật đối với tài khoản Lê Văn A </p>
+											<span>Thay đổi liên quan đến "Gói G2" Vào ngày 28/11/2022 11:33</span>
+										</a>
+										<a class="notifi-item" href="">
+											<p>Cập nhật đối với tài khoản Lê Văn A </p>
+											<span>Thay đổi liên quan đến "Gói G2" Vào ngày 28/11/2022 11:33</span>
+										</a>
+										<a class="notifi-item" href="">
+											<p>Cập nhật đối với tài khoản Lê Văn A </p>
+											<span>Thay đổi liên quan đến "Gói G2" Vào ngày 28/11/2022 11:33</span>
 										</a>
 									</div>
-								</div>
-
-								<span class="ci-menu-link__separator"></span>
-								<div class="ci-menu-link__item">
-									<a href="<?php echo HTTP_PATH . 'pages/dang-ky2.php'; ?>">
-										Đăng kí
+									<a class="notifi-bottom" href="">
+										Xem tất cả
 									</a>
 								</div>
 							</div>
-							<div class="ci-header-phone">
-								<a class="ci-btn ci-btn-main" href="tel:0978240990">
-									<i class="fal fa-phone-volume fz-20 me-3"></i>0978 240 990
+						</div>
+
+						<div class="navbar-nu navbar-user">
+							<div class="dropdown d-flex align-items-center">
+								<a class="navbar-icon" href="<?php echo esc_url(home_url('/oxanh/')); ?>">
+									<i class="fal fa-circle-user"></i>
+									<span class="ms-3 d-none d-sm-block">Đăng nhập</span>
 								</a>
 							</div>
-							<!-- <button class="ci-btn ci-btn-main ci-btn-mua-bh" type="button">MUA </button> -->
-						</form>
+						</div>
+
+						<div class="ci-header-phone d-none d-xl-block ms-4">
+							<a class="ci-btn ci-btn-main" href="tel:0978240990">
+								<i class="fal fa-phone-volume fz-20 me-3"></i>0978 240 990
+							</a>
+						</div>
 					</div>
 
 				</div>

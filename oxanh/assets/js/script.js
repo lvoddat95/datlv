@@ -28,7 +28,7 @@ $(function () {
 		}
 		if ($(".navbar-toggle").length == 0) {
 			console.warn(
-				"Warning - Thieu button navbar-toggle. Kiem tra lai HTML!"
+				"Warning - Thieu button sidebar-mobile-main-toggle. Kiem tra lai HTML!"
 			);
 			return;
 		}
