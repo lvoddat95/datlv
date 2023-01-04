@@ -134,7 +134,7 @@
 
 						<div class="navbar-nu navbar-user">
 							<div class="dropdown d-flex align-items-center">
-								<a class="navbar-icon" href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>">
+								<a class="navbar-icon" href="<?php echo esc_url(home_url('/oxanh/dang-nhap/')); ?>">
 									<i class="fal fa-circle-user"></i>
 									<span class="ms-3 d-none d-sm-block">Đăng nhập</span>
 								</a>
@@ -142,8 +142,8 @@
 						</div>
 
 						<div class="ci-header-phone d-none d-xl-block ms-4">
-							<a class="ci-btn ci-btn-main" href="tel:0978240990">
-								<i class="fal fa-phone-volume fz-20 me-3"></i>0978 240 990
+							<a class="ci-btn ci-btn-main" href="tel:0339869338">
+								<i class="fal fa-phone-volume fz-20 me-3"></i>0339.869.338
 							</a>
 						</div>
 					</div>

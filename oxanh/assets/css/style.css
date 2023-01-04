@@ -6384,3 +6384,19 @@ Flaticon icon font: Flaticon
 .img-cmt {
   object-fit: cover;
 }
+
+.top-bar{
+  background: #f9f86c;
+  font-style: normal;
+  font-weight: 500;
+  font-size: var(--fz-13);
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: .03em;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  transition: all .3s;
+}
+.top-bar marquee{
+  display: block;
+}
