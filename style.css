@@ -22,6 +22,7 @@ a[target="_NEW"] {
     display: none;
 }
 
+.pb-banner1,
 iframe.pb-banner1,
 .pb-footer {
     display: none !important;
