@@ -31,3 +31,10 @@ iframe.pb-banner1,
 footer + br {
     display: none;
 }
+
+.oxanh-dang-ky header,
+.oxanh-dang-nhap header,
+.oxanh-dang-ky footer,
+.oxanh-dang-nhap footer{
+    display: none;
+}

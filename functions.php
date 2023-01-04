@@ -233,20 +233,31 @@ function write_menu_item_link_class($ulclass)
 }
 add_filter('wp_nav_menu', 'write_menu_item_link_class');
 
+//Page Slug Body Class
+function write_add_slug_body_class($classes)
+{
+	global $post;
+	if (isset($post)) {
+		$classes[] = $post->post_type . '-' . $post->post_name;
+	}
+	return $classes;
+}
+add_filter('body_class', 'write_add_slug_body_class');
 
-function cptui_register_my_cpts() {
+function cptui_register_my_cpts()
+{
 
 	/**
 	 * Post Type: BHHK.
 	 */
 
 	$labels = [
-		"name" => esc_html__( "BHHK", "write" ),
-		"singular_name" => esc_html__( "BHHK", "write" ),
+		"name" => esc_html__("BHHK", "write"),
+		"singular_name" => esc_html__("BHHK", "write"),
 	];
 
 	$args = [
-		"label" => esc_html__( "BHHK", "write" ),
+		"label" => esc_html__("BHHK", "write"),
 		"labels" => $labels,
 		"description" => "",
 		"public" => true,
@@ -265,26 +276,26 @@ function cptui_register_my_cpts() {
 		"map_meta_cap" => true,
 		"hierarchical" => true,
 		"can_export" => false,
-		"rewrite" => [ "slug" => "bhhk", "with_front" => true ],
+		"rewrite" => ["slug" => "bhhk", "with_front" => true],
 		"query_var" => true,
 		"menu_icon" => "dashicons-editor-code",
-		"supports" => [ "title", "editor", "thumbnail", "page-attributes" ],
+		"supports" => ["title", "editor", "thumbnail", "page-attributes"],
 		"show_in_graphql" => false,
 	];
 
-	register_post_type( "bhhk", $args );
+	register_post_type("bhhk", $args);
 
 	/**
 	 * Post Type: OXanh.
 	 */
 
 	$labels = [
-		"name" => esc_html__( "OXanh", "write" ),
-		"singular_name" => esc_html__( "OXanh", "write" ),
+		"name" => esc_html__("OXanh", "write"),
+		"singular_name" => esc_html__("OXanh", "write"),
 	];
 
 	$args = [
-		"label" => esc_html__( "OXanh", "write" ),
+		"label" => esc_html__("OXanh", "write"),
 		"labels" => $labels,
 		"description" => "",
 		"public" => true,
@@ -303,33 +314,34 @@ function cptui_register_my_cpts() {
 		"map_meta_cap" => true,
 		"hierarchical" => true,
 		"can_export" => false,
-		"rewrite" => [ "slug" => "oxanh", "with_front" => true ],
+		"rewrite" => ["slug" => "oxanh", "with_front" => true],
 		"query_var" => true,
 		"menu_icon" => "dashicons-editor-code",
-		"supports" => [ "title" ],
+		"supports" => ["title", "page-attributes"],
+		"taxonomies" => ["category"],
 		"show_in_graphql" => false,
 	];
 
-	register_post_type( "oxanh", $args );
+	register_post_type("oxanh", $args);
 }
 
-add_action( 'init', 'cptui_register_my_cpts' );
+add_action('init', 'cptui_register_my_cpts');
 
 
-
-function cptui_register_my_cpts_bhhk() {
+function cptui_register_my_cpts_bhhk()
+{
 
 	/**
 	 * Post Type: BHHK.
 	 */
 
 	$labels = [
-		"name" => esc_html__( "BHHK", "write" ),
-		"singular_name" => esc_html__( "BHHK", "write" ),
+		"name" => esc_html__("BHHK", "write"),
+		"singular_name" => esc_html__("BHHK", "write"),
 	];
 
 	$args = [
-		"label" => esc_html__( "BHHK", "write" ),
+		"label" => esc_html__("BHHK", "write"),
 		"labels" => $labels,
 		"description" => "",
 		"public" => true,
@@ -348,33 +360,32 @@ function cptui_register_my_cpts_bhhk() {
 		"map_meta_cap" => true,
 		"hierarchical" => true,
 		"can_export" => false,
-		"rewrite" => [ "slug" => "bhhk", "with_front" => true ],
+		"rewrite" => ["slug" => "bhhk", "with_front" => true],
 		"query_var" => true,
 		"menu_icon" => "dashicons-editor-code",
-		"supports" => [ "title", "editor", "thumbnail", "page-attributes" ],
+		"supports" => ["title", "editor", "thumbnail", "page-attributes"],
 		"show_in_graphql" => false,
 	];
 
-	register_post_type( "bhhk", $args );
+	register_post_type("bhhk", $args);
 }
 
-add_action( 'init', 'cptui_register_my_cpts_bhhk' );
+add_action('init', 'cptui_register_my_cpts_bhhk');
 
-
-
-function cptui_register_my_cpts_oxanh() {
+function cptui_register_my_cpts_oxanh()
+{
 
 	/**
 	 * Post Type: OXanh.
 	 */
 
 	$labels = [
-		"name" => esc_html__( "OXanh", "write" ),
-		"singular_name" => esc_html__( "OXanh", "write" ),
+		"name" => esc_html__("OXanh", "write"),
+		"singular_name" => esc_html__("OXanh", "write"),
 	];
 
 	$args = [
-		"label" => esc_html__( "OXanh", "write" ),
+		"label" => esc_html__("OXanh", "write"),
 		"labels" => $labels,
 		"description" => "",
 		"public" => true,
@@ -393,14 +404,15 @@ function cptui_register_my_cpts_oxanh() {
 		"map_meta_cap" => true,
 		"hierarchical" => true,
 		"can_export" => false,
-		"rewrite" => [ "slug" => "oxanh", "with_front" => true ],
+		"rewrite" => ["slug" => "oxanh", "with_front" => true],
 		"query_var" => true,
 		"menu_icon" => "dashicons-editor-code",
-		"supports" => [ "title" ],
+		"supports" => ["title", "page-attributes"],
+		"taxonomies" => ["category"],
 		"show_in_graphql" => false,
 	];
 
-	register_post_type( "oxanh", $args );
+	register_post_type("oxanh", $args);
 }
 
-add_action( 'init', 'cptui_register_my_cpts_oxanh' );
+add_action('init', 'cptui_register_my_cpts_oxanh');

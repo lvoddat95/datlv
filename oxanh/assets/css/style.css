@@ -6250,10 +6250,10 @@ Flaticon icon font: Flaticon
 
 .navbar-pill {
   position: absolute;
-  top: -2px;
-  right: -2px;
-  width: 10px;
-  height: 10px;
+  top: -4px;
+  right: -6px;
+  width: 16px;
+  height: 16px;
   display: flex;
   align-items: center;
   justify-content: center;

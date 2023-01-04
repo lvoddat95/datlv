@@ -6,7 +6,7 @@
                 <div>
                     <div class="text-center">
                         <a href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>">
-                            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/logo/logo-nav.png" alt="Logo" width="180px">
+                            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/logo/logo-text.png" alt="Logo" width="180px">
                         </a>
                     </div>
                     <div class="text-center mt-2 mb-5">

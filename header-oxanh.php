@@ -48,7 +48,7 @@
 
 <body <?php body_class(); ?>>
 
-	<?php 
+	<?php
 	// wp_body_open(); 
 	?>
 
@@ -103,7 +103,7 @@
 						<div class="navbar-nu navbar-notification">
 							<div class="dropdown">
 								<button class="dropdown-toggle dropdown-hide-arrow navbar-icon" data-bs-toggle="dropdown">
-									<i class="fal fa-bell"></i>
+									<i class="fal fa-bell position-relative"><span class="navbar-pill">2</span></i>
 								</button>
 								<div class="dropdown-menu dropdown-menu-end">
 									<h3 class="notifi-top">Tin nhắn hệ thông</h3>
@@ -133,12 +133,43 @@
 						</div>
 
 						<div class="navbar-nu navbar-user">
-							<div class="dropdown d-flex align-items-center">
-								<a class="navbar-icon" href="<?php echo esc_url(home_url('/oxanh/dang-nhap/')); ?>">
-									<i class="fal fa-circle-user"></i>
-									<span class="ms-3 d-none d-sm-block">Đăng nhập</span>
-								</a>
-							</div>
+							<?php
+							$slug = get_post_field('post_name', get_post());
+							if ($slug == 'tai-khoan') : ?>
+								<div class="dropdown d-flex align-items-center">
+									<button class="dropdown-toggle dropdown-hide-arrow navbar-icon" data-bs-toggle="dropdown">
+										<i class="fal fa-circle-user"></i>
+									</button>
+									<ul class="dropdown-menu dropdown-menu-end ">
+										<li>
+											<a class="dropdown-item" href="<?php echo esc_url(home_url('/oxanh/tai-khoan/')); ?>">
+												<i class="far fa-user me-3"></i>Quản lý tài khoản
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="<?php echo esc_url(home_url('/oxanh/dang-nhap/')); ?>">
+												<i class="far fa-lock-keyhole me-3"></i>Đăng nhập
+											</a>
+										</li>
+										<li>
+											<a class="dropdown-item" href="<?php echo esc_url(home_url('/oxanh/dang-ky/')); ?>">
+												<i class="far fa-key-skeleton me-3"></i>Đăng ký
+											</a>
+										</li>
+										<li>
+											<hr class="dropdown-divider">
+										</li>
+										<li><a class="dropdown-item" href="tel:0339869338">Hotline: 0339.869.338</a></li>
+									</ul>
+								</div>
+							<?php else : ?>
+								<div class="dropdown d-flex align-items-center">
+									<a class="navbar-icon" href="<?php echo esc_url(home_url('/oxanh/dang-nhap/')); ?>">
+										<i class="fal fa-circle-user"></i>
+										<span class="ms-3 d-none d-sm-block">Đăng nhập</span>
+									</a>
+								</div>
+							<?php endif; ?>
 						</div>
 
 						<div class="ci-header-phone d-none d-xl-block ms-4">

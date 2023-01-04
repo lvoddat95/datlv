@@ -6,6 +6,7 @@
             </marquee>
         </div>
     </div>
+    
     <div class="ci-breadcrumb-link bg-silver2 d-flex">
         <div class="container">
             <ul class="list-unstyled">
@@ -17,8 +18,6 @@
 
     <div class="ci-block">
         <div class="container">
-
-
 
             <div class="ci-block-aside pb-5">
                 <aside class="ci-aside mb-3">
