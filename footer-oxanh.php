@@ -18,7 +18,7 @@
             <div class="row gx-5">
                 <div class="col-lg-3">
                     <a href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>" class="logo-bottom">
-                        <img class="b-lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/logo/logo.png">
+                        <img class="b-lazy" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/logo/logo-text.png">
                     </a>
                 </div>
                 <div class="col-lg-3">
