@@ -47,7 +47,7 @@
                         </div>
 
                         <div class="mt-5 text-center">
-                            Quý khách chưa đăng ký tài khoản? <a href="dang-ky2.php">Đăng ký</a>
+                            Quý khách chưa đăng ký tài khoản? <a href="<?php echo esc_url(home_url('/oxanh/dang-ky/')); ?>">Đăng ký</a>
                         </div>
 
                         <div class="mt-4 text-center">

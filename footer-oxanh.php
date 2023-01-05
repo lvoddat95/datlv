@@ -82,6 +82,8 @@
     </div>
 </footer>
 
+<?php get_template_part('oxanh/pages/content', 'popup'); ?>
+
 <?php wp_footer(); ?>
 
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/js/app.js"></script>

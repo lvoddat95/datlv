@@ -112,7 +112,7 @@
                         </div>
 
                         <div class="mt-5 text-center">
-                            Quý khách đã có tài khoản <a href="dang-nhap2.php">Đăng nhập</a>
+                            Quý khách đã có tài khoản <a href="<?php echo esc_url(home_url('/oxanh/dang-nhap/')); ?>">Đăng nhập</a>
                         </div>
 
                     </form>
