@@ -171,6 +171,7 @@ function write_scripts()
 	wp_enqueue_script('write-cleave', get_template_directory_uri() . '/oxanh/utils/cleave.js/dist/cleave.min.js', array(), WRITE_VERSION, true);
 	wp_enqueue_script('write-jquery-validation', get_template_directory_uri() . '/oxanh/utils/jquery-validation/dist/jquery.validate.min.js', array(), WRITE_VERSION, true);
 	wp_enqueue_script('write-jquery-tipsy', get_template_directory_uri() . '/oxanh/utils/tipsy/jquery.tipsy.js', array(), WRITE_VERSION, true);
+	wp_enqueue_script('write-swiper@8', get_template_directory_uri() . '/oxanh/utils/swiper@8/swiper-bundle.min.js', array(), WRITE_VERSION, true);
 
 	if (is_singular() && comments_open() && get_option('thread_comments')) {
 		wp_enqueue_script('comment-reply');

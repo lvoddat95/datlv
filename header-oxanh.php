@@ -37,6 +37,7 @@
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/utils/select2/dist/css/select2.min.css">
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/utils/datatables/datatables.min.css">
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/utils/tipsy/tipsy.min.css">
+	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/utils/swiper@8/swiper-bundle.min.css">
 
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/css/fontawesome.min.css">
 	<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/css/style.css">

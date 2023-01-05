@@ -1,27 +1,32 @@
-<div id="ci-slider-block" class="ci-slider-block ci-slider slick-slider data-slick-slider mb-0" data-slick='{"dots": true,"slidesToShow": 1, "slidesToScroll": 1, "lazyLoad": "ondemand"}'>
-    <div class="ci-slider-item">
-        <div class="slider-item__img" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/home/slider-oxanh.jpg);"></div>
-        <div class="container">
-            <div class="ci-slider-item__info">
-                <h3 class="ci-slider-info__title"><span>Ô Xanh</span> <br>Kế hoạch trợ giúp lẫn nhau <br> vì bệnh hiểm nghèo</h3>
-                <p class="ci-slider-info__desc">
-                    An tâm điều trị, giảm bớt âu lo
-                </p>
-                <a href="tel:0978240990" class="ci-btn ci-btn-main ci-btn-slider">Nhận báo giá miễn phí</a>
+<div id="ci-slider-block" class="ci-slider-block ci-slider swiper mb-0">
+    <div class="swiper-wrapper">
+        <div class="ci-slider-item swiper-slide">
+            <div class="slider-item__img" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/home/slider-oxanh.jpg);"></div>
+            <div class="container">
+                <div class="ci-slider-item__info">
+                    <h3 class="ci-slider-info__title"><span>Ô Xanh</span> <br>Kế hoạch trợ giúp lẫn nhau <br> vì bệnh hiểm nghèo</h3>
+                    <p class="ci-slider-info__desc">
+                        An tâm điều trị, giảm bớt âu lo
+                    </p>
+                    <a href="tel:0978240990" class="ci-btn ci-btn-main ci-btn-slider">Nhận báo giá miễn phí</a>
+                </div>
+            </div>
+        </div>
+        <div class="ci-slider-item swiper-slide">
+            <div class="slider-item__img" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog03.jpg);"></div>
+            <div class="container">
+                <div class="ci-slider-item__info">
+                    <h3 class="ci-slider-info__title">Tận hưởng <br> hạnh phúc của bạn</h3>
+                    <p class="ci-slider-info__desc">
+                        Kế hoạch bảo vệ phù hợp, tương trợ kịp thời giúp bạn tiến lên phía trước</p>
+                    <a href="tel:0978240990" class="ci-btn ci-btn-main ci-btn-slider">Nhận báo giá miễn phí</a>
+                </div>
             </div>
         </div>
     </div>
-    <div class="ci-slider-item">
-        <div class="slider-item__img" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog03.jpg);"></div>
-        <div class="container">
-            <div class="ci-slider-item__info">
-                <h3 class="ci-slider-info__title">Tận hưởng <br> hạnh phúc của bạn</h3>
-                <p class="ci-slider-info__desc">
-                    Kế hoạch bảo vệ phù hợp, tương trợ kịp thời giúp bạn tiến lên phía trước</p>
-                <a href="tel:0978240990" class="ci-btn ci-btn-main ci-btn-slider">Nhận báo giá miễn phí</a>
-            </div>
-        </div>
-    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
 </div>
 
 <div id="ci-package-block" class="ci-block ci-package-block bg-grey">
@@ -32,154 +37,158 @@
                     <div class="ci-heading">
                         <h2 class="ci-heading__main">Chọn kế hoạch phù hợp cho bạn</h2>
                     </div>
-                    <div class="ci-package-slider">
+                    <div class="ci-package-slider swiper">
+                        <div class="swiper-wrapper">
+                            <div class="ci-package-item swiper-slide">
+                                <div class="ci-package-item__top">
+                                    <span>Kế hoạch G1</span>
+                                    <h3>Quyền lợi tương trợ tối đa 200.000.000<small>₫</small></h3>
+                                </div>
+                                <div class="ci-package-item__mid">
+                                    <table class="table table-style style2 mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th width="40%">Độ tuổi (tuổi)</th>
+                                                <th class="text-end">Phí tham gia/năm (₫)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
+                                                <td align="right">500.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 19 - 29</td>
+                                                <td align="right">1.000.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 30 - 39</td>
+                                                <td align="right">1.500.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 40 - 49</td>
+                                                <td align="right">2.000.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 50 - 59</td>
+                                                <td align="right">2.500.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
+                                                <td align="right">3.000.000</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="ci-package-item__bottom">
+                                    <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
+                                </div>
+                                <div class="ci-package-item__more">
+                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
+                                </div>
+                            </div>
 
-                        <div class="ci-package-item ci-package-item-1">
-                            <div class="ci-package-item__top">
-                                <span>Kế hoạch G1</span>
-                                <h3>Quyền lợi tương trợ tối đa 200.000.000<small>₫</small></h3>
+                            <div class="ci-package-item swiper-slide">
+                                <div class="ci-package-item__top">
+                                    <span>Kế hoạch G2</span>
+                                    <h3>Quyền lợi tương trợ tối đa 300.000.000<small>₫</small></h3>
+                                </div>
+                                <div class="ci-package-item__mid">
+                                    <table class="table table-style style2 mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th width="40%">Độ tuổi (tuổi)</th>
+                                                <th class="text-end">Phí tham gia/năm (₫)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
+                                                <td align="right">750.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 19 - 29</td>
+                                                <td align="right">1.500.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 30 - 39</td>
+                                                <td align="right">2.250.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 40 - 49</td>
+                                                <td align="right">3.000.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 50 - 59</td>
+                                                <td align="right">3.750.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
+                                                <td align="right">Chưa triển khai</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="ci-package-item__bottom">
+                                    <a href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
+                                </div>
+                                <div class="ci-package-item__more">
+                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
+                                </div>
                             </div>
-                            <div class="ci-package-item__mid">
-                                <table class="table table-style style2 mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th width="40%">Độ tuổi (tuổi)</th>
-                                            <th class="text-end">Phí tham gia/năm (₫)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
-                                            <td align="right">500.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 19 - 29</td>
-                                            <td align="right">1.000.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 30 - 39</td>
-                                            <td align="right">1.500.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 40 - 49</td>
-                                            <td align="right">2.000.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 50 - 59</td>
-                                            <td align="right">2.500.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
-                                            <td align="right">3.000.000</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="ci-package-item__bottom">
-                                <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
-                            </div>
-                            <div class="ci-package-item__more">
-                                <a class="more" href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
+
+                            <div class="ci-package-item swiper-slide">
+                                <div class="ci-package-item__top">
+                                    <span>Kế hoạch G3</span>
+                                    <h3>Quyền lợi tương trợ tối đa 500.000.000<small>₫</small></h3>
+                                </div>
+                                <div class="ci-package-item__mid">
+                                    <table class="table table-style style2 mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th width="40%">Độ tuổi (tuổi)</th>
+                                                <th class="text-end">Phí tham gia/năm (₫)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
+                                                <td align="right">1.250.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 19 - 29</td>
+                                                <td align="right">2.500.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 30 - 39</td>
+                                                <td align="right">3.750.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 40 - 49</td>
+                                                <td rowspan="3" style="vertical-align: middle;" align="right">Chưa triển khai</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 50 - 59</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="ci-package-item__bottom">
+                                    <a href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
+
+                                </div>
+                                <div class="ci-package-item__more">
+                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
+                                </div>
+
                             </div>
                         </div>
-
-                        <div class="ci-package-item">
-                            <div class="ci-package-item__top">
-                                <span>Kế hoạch G2</span>
-                                <h3>Quyền lợi tương trợ tối đa 300.000.000<small>₫</small></h3>
-                            </div>
-                            <div class="ci-package-item__mid">
-                                <table class="table table-style style2 mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th width="40%">Độ tuổi (tuổi)</th>
-                                            <th class="text-end">Phí tham gia/năm (₫)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
-                                            <td align="right">750.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 19 - 29</td>
-                                            <td align="right">1.500.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 30 - 39</td>
-                                            <td align="right">2.250.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 40 - 49</td>
-                                            <td align="right">3.000.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 50 - 59</td>
-                                            <td align="right">3.750.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
-                                            <td align="right">Chưa triển khai</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="ci-package-item__bottom">
-                                <a href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
-                            </div>
-                            <div class="ci-package-item__more">
-                                <a class="more" href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
-                            </div>
-                        </div>
-
-                        <div class="ci-package-item">
-                            <div class="ci-package-item__top">
-                                <span>Kế hoạch G3</span>
-                                <h3>Quyền lợi tương trợ tối đa 500.000.000<small>₫</small></h3>
-                            </div>
-                            <div class="ci-package-item__mid">
-                                <table class="table table-style style2 mb-0">
-                                    <thead>
-                                        <tr>
-                                            <th width="40%">Độ tuổi (tuổi)</th>
-                                            <th class="text-end">Phí tham gia/năm (₫)</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
-                                            <td align="right">1.250.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 19 - 29</td>
-                                            <td align="right">2.500.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 30 - 39</td>
-                                            <td align="right">3.750.000</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 40 - 49</td>
-                                            <td rowspan="3" style="vertical-align: middle;" align="right">Chưa triển khai</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 50 - 59</td>
-                                        </tr>
-                                        <tr>
-                                            <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <div class="ci-package-item__bottom">
-                                <a href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
-
-                            </div>
-                            <div class="ci-package-item__more">
-                                <a class="more" href="<?php echo esc_url(home_url('/oxanh/trang-chu/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
-                            </div>
-
-                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
                     </div>
 
                 </div>

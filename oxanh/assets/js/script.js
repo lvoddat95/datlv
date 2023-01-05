@@ -1,24 +1,80 @@
 $(function () {
 	if ($(".ci-package-slider").length > 0) {
-		$(".ci-package-slider").slick({
-			infinite: false,
-			slidesToShow: 3,
-			responsive: [{
-				breakpoint: 1024,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 2,
-				},
+		var swiper_slider = new Swiper(".ci-slider", {
+			slidesPerView: 1,
+			// spaceBetween: 10,
+			loop: true,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
 			},
-			{
-				breakpoint: 600,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-				},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
 			},
-			],
+			// breakpoints: {
+			//     640: {
+			//         slidesPerView: 2,
+			//         spaceBetween: 20,
+			//     },
+			//     768: {
+			//         slidesPerView: 4,
+			//         spaceBetween: 40,
+			//     },
+			//     1024: {
+			//         slidesPerView: 5,
+			//         spaceBetween: 50,
+			//     },
+			// },
 		});
+	}
+
+	if ($(".ci-package-slider").length > 0) {
+
+		var swiper_package_slider = new Swiper(".ci-package-slider", {
+			slidesPerView: 1,
+			spaceBetween: 20,
+			// loop: true,
+			// pagination: {
+			// 	el: ".swiper-pagination",
+			// 	clickable: true,
+			// },
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			breakpoints: {
+				640: {
+					slidesPerView: 1,
+				},
+				768: {
+					slidesPerView: 2,
+				},
+				1024: {
+					slidesPerView: 3,
+				},
+			},
+		});
+
+		// $(".ci-package-slider").slick({
+		// 	infinite: false,
+		// 	slidesToShow: 3,
+		// 	responsive: [{
+		// 			breakpoint: 1024,
+		// 			settings: {
+		// 				slidesToShow: 2,
+		// 				slidesToScroll: 2,
+		// 			},
+		// 		},
+		// 		{
+		// 			breakpoint: 600,
+		// 			settings: {
+		// 				slidesToShow: 1,
+		// 				slidesToScroll: 1,
+		// 			},
+		// 		},
+		// 	],
+		// });
 	}
 
 	if ($("#main-menu").length > 0) {
@@ -48,8 +104,8 @@ $(function () {
 
 	$(".ci-btn-mua-bh").on("click", function () {
 		$("html, body").animate({
-			scrollTop: $("#ci-package-block").offset().top,
-		},
+				scrollTop: $("#ci-package-block").offset().top,
+			},
 			900
 		);
 	});
@@ -57,13 +113,14 @@ $(function () {
 	// Len dau trang
 	$(".go-top").on("click", function () {
 		$("html, body").animate({
-			scrollTop: 0,
-		},
+				scrollTop: 0,
+			},
 			500
 		);
 	});
 
 	SlickSlider();
+
 	function SlickSlider() {
 		if ($(".data-slick-slider").length > 0) {
 			$(".data-slick-slider").each(function (e) {
@@ -265,7 +322,7 @@ var chose_payment = function (p_this) {
 	}
 };
 
-var chosse_bank = function (p_this) { };
+var chosse_bank = function (p_this) {};
 
 $("#payment-info .img-bank").on("click", function (e) {
 	$("#payment-info .img-bank").removeClass("active");
@@ -605,7 +662,7 @@ if ($('.banner-video').length > 0) {
 				// });
 			}
 		});
-		
+
 
 		// self.find('.mute-video').on('click', function (event) {
 		// 	event.preventDefault();

@@ -1064,6 +1064,19 @@ a:hover {
   border: var(--border-eee);
 }
 
+.ci-package-slider.swiper {
+  margin: 0;
+  /* overflow: visible; */
+  margin-bottom: 10px;
+}
+
+.ci-package-slider.swiper .ci-package-item {
+  margin: 0;
+}
+
+.ci-package-slider .swiper-wrapper{
+}
+
 .g01-bg-color {
   background-color: var(--g01-bg-color);
 }
@@ -6387,7 +6400,7 @@ Flaticon icon font: Flaticon
   object-fit: cover;
 }
 
-.top-bar{
+.top-bar {
   background: #f9f86c;
   font-style: normal;
   font-weight: 500;
@@ -6399,6 +6412,7 @@ Flaticon icon font: Flaticon
   padding-bottom: 7px;
   transition: all .3s;
 }
-.top-bar marquee{
+
+.top-bar marquee {
   display: block;
 }
