@@ -5667,6 +5667,7 @@ Flaticon icon font: Flaticon
   overflow: hidden;
   background: rgb(190 224 248 / 51%);
   border-radius: var(--radius-16);
+  display: none;
 }
 
 .img-sanpham img {
@@ -5691,6 +5692,7 @@ Flaticon icon font: Flaticon
   overflow: hidden;
   background: rgb(171 183 169 / 76%);
   border-radius: var(--radius-16);
+  display: none;
 }
 
 .danh-muc-benh {
