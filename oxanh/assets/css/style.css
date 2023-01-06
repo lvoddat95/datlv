@@ -120,6 +120,10 @@ Tags:
 
   /* fix HC canvas  */
   scroll-behavior: auto;
+
+  --swiper-navigation-size: 24px;
+  --swiper-pagination-bullet-inactive-color: #fff;
+  --swiper-pagination-bullet-inactive-opacity: .7;
 }
 
 ::-webkit-scrollbar-track {
@@ -1066,7 +1070,7 @@ a:hover {
 
 .ci-package-slider.swiper {
   margin: 0;
-  /* overflow: visible; */
+  overflow: visible;
   margin-bottom: 10px;
 }
 
