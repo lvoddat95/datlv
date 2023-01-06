@@ -6,7 +6,7 @@
             </marquee>
         </div>
     </div>
-    
+
     <div class="ci-breadcrumb-link bg-silver2 d-flex">
         <div class="container">
             <ul class="list-unstyled">
@@ -16,9 +16,9 @@
         </div>
     </div>
 
-    <div class="ci-block">
+    <div class="ci-block overflow-hidden">
         <div class="container">
-
+    
             <div class="ci-block-aside pb-5">
                 <aside class="ci-aside mb-3">
                     <div class="ci-user-box">
@@ -31,48 +31,51 @@
                             <span class="fz-16 fw-medium d-block">Lê Văn A</span>
                         </div>
                     </div>
-                    <ul class="account-menu-list">
-                        <li class="item active">
-                            <a href="<?php echo esc_url(home_url('/oxanh/')); ?>tai-khoan.php" title="Thông tin tài khoản">
-                                <i class="fa fa-user fa-fw"></i>Thông tin tài khoản
-                            </a>
-                        </li>
+                    <div class="swiper account-menu-list">
+                        <ul class="swiper-wrapper list-unstyled">
+                            <li class="swiper-slide item active">
+                                <a href="<?php echo esc_url(home_url('/oxanh/')); ?>tai-khoan.php" title="Thông tin tài khoản">
+                                    <i class="fa fa-user fa-fw"></i>Thông tin tài khoản
+                                </a>
+                            </li>
 
-                        <li class="item ">
-                            <a href="<?php echo esc_url(home_url('/oxanh/')); ?>san-pham-quan-tam.php" title="Sản phẩm đang quan tâm">
-                                <i class="fa fa-inbox fa-fw"></i>Sản phẩm đang quan tâm
-                            </a>
-                        </li>
+                            <li class="swiper-slide item ">
+                                <a href="<?php echo esc_url(home_url('/oxanh/')); ?>san-pham-quan-tam.php" title="Sản phẩm đang quan tâm">
+                                    <i class="fa fa-inbox fa-fw"></i>Sản phẩm đang quan tâm
+                                </a>
+                            </li>
 
-                        <li class="item ">
-                            <a href="<?php echo esc_url(home_url('/oxanh/')); ?>ma-giam-gia.php" title="Mã giảm giá">
-                                <i class="fa fa-gift fa-fw"></i>Mã giảm giá
-                            </a>
-                        </li>
+                            <li class="swiper-slide item ">
+                                <a href="<?php echo esc_url(home_url('/oxanh/')); ?>ma-giam-gia.php" title="Mã giảm giá">
+                                    <i class="fa fa-gift fa-fw"></i>Mã giảm giá
+                                </a>
+                            </li>
 
-                        <li class="item ">
-                            <a href="<?php echo esc_url(home_url('/oxanh/')); ?>quan-ly-don-hang.php" title="Quản lý đơn hàng">
-                                <i class="fa fa-box-circle-check fa-fw"></i>Quản lý đơn hàng
-                            </a>
-                        </li>
+                            <li class="swiper-slide item ">
+                                <a href="<?php echo esc_url(home_url('/oxanh/')); ?>quan-ly-don-hang.php" title="Quản lý đơn hàng">
+                                    <i class="fa fa-box-circle-check fa-fw"></i>Quản lý đơn hàng
+                                </a>
+                            </li>
 
-                        <li class="item ">
-                            <a href="<?php echo esc_url(home_url('/oxanh/')); ?>quan-ly-thong-bao.php" title="Quản lý thông báo">
-                                <i class="fa fa-bell fa-fw"></i>Quản lý thông báo
-                            </a>
-                        </li>
+                            <li class="swiper-slide item ">
+                                <a href="<?php echo esc_url(home_url('/oxanh/')); ?>quan-ly-thong-bao.php" title="Quản lý thông báo">
+                                    <i class="fa fa-bell fa-fw"></i>Quản lý thông báo
+                                </a>
+                            </li>
 
-                        <li class="item ">
-                            <a href="<?php echo esc_url(home_url('/oxanh/')); ?>doi-mat-khau.php" title="Thay đổi mật khẩu">
-                                <i class="fa fa-lock-keyhole fa-fw"></i>Thay đổi mật khẩu
-                            </a>
-                        </li>
-                        <li class="item ">
-                            <a href="<?php echo esc_url(home_url('/oxanh/')); ?>doi-mat-khau.php" title="Thay đổi mật khẩu">
-                                <i class="fa fa-lock-keyhole fa-fw"></i>Thay đổi mật khẩu
-                            </a>
-                        </li>
-                    </ul>
+                            <li class="swiper-slide item ">
+                                <a href="<?php echo esc_url(home_url('/oxanh/')); ?>doi-mat-khau.php" title="Thay đổi mật khẩu">
+                                    <i class="fa fa-lock-keyhole fa-fw"></i>Thay đổi mật khẩu
+                                </a>
+                            </li>
+                            <li class="swiper-slide item ">
+                                <a href="<?php echo esc_url(home_url('/oxanh/')); ?>doi-mat-khau.php" title="Thay đổi mật khẩu">
+                                    <i class="fa fa-lock-keyhole fa-fw"></i>Thay đổi mật khẩu
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination d-block d-md-none bottom-0"></div>
+                    </div>
                 </aside>
 
                 <main class="ci-main">

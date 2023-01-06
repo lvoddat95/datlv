@@ -1078,9 +1078,6 @@ a:hover {
   margin: 0;
 }
 
-.ci-package-slider .swiper-wrapper{
-}
-
 .g01-bg-color {
   background-color: var(--g01-bg-color);
 }
@@ -5213,6 +5210,10 @@ Flaticon icon font: Flaticon
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.account-menu-list ul {
+  flex-direction: column;
 }
 
 .account-menu-list li {

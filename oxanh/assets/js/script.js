@@ -57,6 +57,8 @@ $(function () {
 			},
 		});
 
+
+
 		// $(".ci-package-slider").slick({
 		// 	infinite: false,
 		// 	slidesToShow: 3,
@@ -77,6 +79,44 @@ $(function () {
 		// 	],
 		// });
 	}
+
+
+	var init = false;
+	function swiperCard() {
+		if (window.innerWidth <= 768) {
+			if (!init) {
+				init = true;
+				if ($(".account-menu-list").length > 0) {
+					var swiper_account_slider = new Swiper(".account-menu-list", {
+						slidesPerView: 3,
+						spaceBetween: 6,
+						grid: {
+							rows: 2,
+						},
+						pagination: {
+							el: ".swiper-pagination",
+							clickable: true,
+						},
+						breakpoints: {
+							640: {
+								slidesPerView: 2,
+							},
+							768: {
+								slidesPerView: 3,
+							},
+						},
+					});
+				}
+			}
+		} else if (init) {
+			swiper_account_slider.destroy();
+			init = false;
+		}
+	}
+	swiperCard();
+
+	window.addEventListener("resize", swiperCard);
+
 
 	if ($("#main-menu").length > 0) {
 		if (typeof hcOffcanvasNav == "undefined") {
