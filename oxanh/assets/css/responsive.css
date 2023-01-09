@@ -563,6 +563,7 @@
   }
 
   .table-block tr {
+    display: block;
     border-bottom: 1px solid var(--silver2);
     line-height: normal;
   }
