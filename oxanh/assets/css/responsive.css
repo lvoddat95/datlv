@@ -553,6 +553,35 @@
   .ci-quyen-loi-box__detail {
     padding: 0px !important;
   }
+
+  .table-block table {
+    display: block;
+  }
+
+  .table-block table tbody {
+    display: block;
+  }
+
+  .table-block tr {
+    border-bottom: 1px solid var(--silver2);
+    line-height: normal;
+  }
+  .table-block tr:last-child{
+    border: 0;
+  }
+
+  .table-block tr td:first-child {
+    display: block;
+    padding-bottom: 0;
+    width: 100%;
+  }
+
+  .table-block tr td:last-child {
+    display: block;
+    padding-left: 0;
+    width: 100%;
+  }
+
 }
 
 @media (min-width: 992px) {}
