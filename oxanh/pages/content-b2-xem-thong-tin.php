@@ -61,49 +61,54 @@
                             <table>
                                 <tbody>
                                     <tr>
+                                        <td>Mua cho</td>
+                                        <td>Bản thân</td>
+                                    </tr>
+                                    <tr>
                                         <td>Họ tên</td>
-                                        <td>Le Văn A</td>
+                                        <td>Lê Viết Đạt</td>
                                     </tr>
                                     <tr>
                                         <td>Ngày sinh</td>
-                                        <td>20/12/1995</td>
+                                        <td>19/05/1996</td>
                                     </tr>
                                     <tr>
                                         <td>Giới tính</td>
                                         <td>Nam</td>
                                     </tr>
                                     <tr>
-                                        <td>Nơi sinh</td>
-                                        <td>THÀNH PHỐ HÀ NỘI</td>
+                                        <td>Địa chỉ</td>
+                                        <td>
+                                            Xã Ba Trại, Huyện Ba Vì, Thành phố Hà Nội
+                                        </td>
                                     </tr>
                                     <tr>
-                                        <td>Tình trạng hôn nhân</td>
-                                        <td>Độc thân</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Số CMND/Căn cước/Hộ chiếu</td>
-                                        <td>123456712</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Cấp ngày</td>
-                                        <td>12/12/2011</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Nơi cấp</td>
-                                        <td>THÀNH PHỐ HÀ NỘI</td>
+                                        <td>CMND/CCCD/HC/Mã định danh</td>
+                                        <td>174795236</td>
                                     </tr>
                                     <tr>
                                         <td>Số điện thoại liên hệ</td>
-                                        <td>0987654321</td>
+                                        <td>0377344372</td>
                                     </tr>
                                     <tr>
                                         <td>Địa chỉ email</td>
-                                        <td>ASD@GA.COM</td>
+                                        <td>lvoddat95@gmail.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hồ sơ</td>
+                                        <td>
+                                            <div class="form-group">
+                                                <div class="error red" id="error"></div>
+                                                <ul class="cmd-custom gallery" id="list-gift">
+
+                                                </ul>
+                                            </div>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-
+                        
                         <div class="d-flex justify-content-between mt-5">
                             <a href="<?php echo esc_url(home_url('/oxanh/b1-nhap-thong-tin/')); ?>" class="btn ci-btn ci-btn-200 ci-btn-outline">
                                 Quay lại
