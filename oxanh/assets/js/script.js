@@ -33,7 +33,7 @@ $(function () {
 
 		var swiper_package_slider = new Swiper(".ci-package-slider", {
 			slidesPerView: 1,
-			spaceBetween: 20,
+			spaceBetween: 12,
 			// loop: true,
 			// pagination: {
 			// 	el: ".swiper-pagination",
@@ -55,8 +55,6 @@ $(function () {
 				},
 				768: {
 					slidesPerView: 2,
-					centeredSlides: true,
-					
 				},
 				1024: {
 					slidesPerView: 3,
