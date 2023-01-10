@@ -546,11 +546,15 @@
     padding: 4px 10px;
   }
 
-
   .ci-package-inner {
     max-width: 88%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .ci-package-slider.swiper {
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   .ci-package-block {
