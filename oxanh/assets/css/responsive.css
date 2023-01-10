@@ -536,9 +536,21 @@
     display: none;
   }
 
+
 }
 
 @media (max-width: 475px) {
+  .ci-package-block .container {
+    margin-left: -6%;
+    margin-right: -6%;
+  }
+
+  .ci-package-inner {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .ci-package-block {
     padding-left: 15px;
     padding-right: 15px;
@@ -567,7 +579,8 @@
     border-bottom: 1px solid var(--silver2);
     line-height: normal;
   }
-  .table-block tr:last-child{
+
+  .table-block tr:last-child {
     border: 0;
   }
 

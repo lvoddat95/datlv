@@ -39,7 +39,11 @@ $(function () {
 			// 	el: ".swiper-pagination",
 			// 	clickable: true,
 			// },
-
+			// freeMode: true,
+			scrollbar: {
+				el: ".swiper-scrollbar",
+				hide: true,
+			},
 			navigation: {
 				nextEl: ".swiper-button-next",
 				prevEl: ".swiper-button-prev",
@@ -47,9 +51,12 @@ $(function () {
 			breakpoints: {
 				640: {
 					slidesPerView: 1,
+					centeredSlides: true,
 				},
 				768: {
 					slidesPerView: 2,
+					centeredSlides: true,
+					
 				},
 				1024: {
 					slidesPerView: 3,
@@ -82,6 +89,7 @@ $(function () {
 
 
 	var init = false;
+
 	function swiperCard() {
 		if (window.innerWidth <= 768) {
 			if (!init) {
