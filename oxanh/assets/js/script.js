@@ -725,3 +725,26 @@ if ($('.banner-video').length > 0) {
 
 	});
 }
+
+
+//Mở popup giữa màn hình
+function open_window_center(url, w = 800, h = 600) {
+	var left = (screen.width / 2) - (w / 2);
+	var top = (screen.height / 2) - (h / 2);
+	//Open the window.
+	var windowFeatures = 'width=' + w + ',height=' + h + ',top=' + top + ',left=' + left;
+	var newWindow = window.open(url, '_blank', windowFeatures);
+
+	// Puts focus on the newWindow
+	if (window.focus) {
+		newWindow.focus();
+	}
+}
+
+function coppy_url() {
+	// Lấy URL hiện tại của trang
+	var currentUrl = window.location.href;
+	
+	// Sao chép URL vào clipboard
+	navigator.clipboard.writeText(currentUrl);
+  }
