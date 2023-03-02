@@ -10,11 +10,11 @@
             </li>
             <li>
                 <a href="#topic-3">Mức tương trợ tối đa và phí thành viên</a>
-                <ul>
+                <!-- <ul>
                     <li>
                         <a href="#topic-4">Lưu ý cơ bản</a>
                     </li>
-                </ul>
+                </ul> -->
             </li>
 
             <li>
@@ -23,23 +23,23 @@
 
             <li>
                 <a href="#topic-6"> Thời gian chờ</a>
-                <ul>
+                <!-- <ul>
                     <li>
                         <a href="#topic-7">Nội dung tương trợ </a>
                     </li>
-                </ul>
+                </ul> -->
             </li>
 
             <li>
                 <a href="#topic-8"> Chấm dứt kế hoạch</a>
-                <ul>
+                <!-- <ul>
                     <li>
                         <a href="#topic-11"> Rút khỏi kế hoạch </a>
                     </li>
                     <li>
                         <a href="#topic-9"> Hoàn cảnh không có sự hỗ trợ lẫn nhau</a>
                     </li>
-                </ul>
+                </ul> -->
             </li>
 
             <li>

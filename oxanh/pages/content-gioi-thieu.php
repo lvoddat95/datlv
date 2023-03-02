@@ -24,6 +24,56 @@
             <div class="col-md-5 ">
                 <div class="ps-lg-5">
                     <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/umbrella.jpg" alt="Ô Xanh">
+                    <div class="ci-btn-share dropdown mt-3">
+                        <button class="btn dropdown-toggle dropdown-hide-arrow" data-bs-toggle="dropdown">
+                            <i class="fa fa-fw fa-share"></i> <span>Chia sẻ thông tin</span>
+                        </button>
+                        <div class="ci-social-share dropdown-menu dropdown-menu-end">
+                            <h3>Chia sẻ thông tin hữu ích</h3>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="javascript:void(0);" onclick="open_window_center('https://www.facebook.com/sharer/sharer.php?u=https://oxanh.vn/', '', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=600, width=600');return false;" class="text-center share-popup">
+                                        <span class="icon-share icon-fb"></span>
+                                        Facebook
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" onclick="open_window_center('https://www.facebook.com/dialog/send?app_id=5303202981&display=popup&link=https://oxanh.vn/&redirect_uri=https://oxanh.vn/')" class="text-center share-popup">
+                                        <span class="icon-share icon-mess"></span>
+                                        Facebook <br>Messenger
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="zalo-share-button" data-customize="true" data-href="https://oxanh.vn/" data-oaid="1725754398893171259" data-layout="4" data-color="blue" data-customize="false">
+                                        <span class="icon-share icon-zl"></span>
+                                        <span>Zalo</span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" onclick="open_window_center('https://twitter.com/intent/tweet?&url=https://oxanh.vn/')" class="text-center share-popup">
+                                        <span class="icon-share icon-tw"></span>
+                                        Twitter
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" onclick="open_window_center('https://t.me/share/url?url=https://oxanh.vn/')" class="text-center share-popup">
+                                        <span class="icon-share icon-tl"></span>
+                                        Telegram
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);" onclick="open_window_center('https://web.skype.com/share?url=https://oxanh.vn/')" class="text-center share-popup">
+                                        <span class="icon-share icon-sk"></span>
+                                        Skype
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="ci-btn-copy">
+                                <a class="btn btn-copy-url" href="javascript:void(0);" onclick="coppy_url();" title="Copy link">Copy link</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

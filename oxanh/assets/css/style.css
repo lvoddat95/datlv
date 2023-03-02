@@ -6421,3 +6421,107 @@ Flaticon icon font: Flaticon
 .top-bar marquee {
   display: block;
 }
+
+
+
+
+
+
+
+
+
+/* SHARE */
+
+.ci-btn-share > .btn {
+  border-radius: 5px;
+  padding: 3px 10px;
+  color: #fff;
+  font-size: 12px;
+  background-color: var(--main-color);
+  cursor: pointer;
+  height: auto;
+}
+
+.ci-social-share {
+  min-width: 520px;
+  padding: 15px 20px;
+  background: #fff;
+  box-shadow: #00000059 1px 1px 5px;
+  z-index: 9999;
+}
+
+.ci-social-share h3 {
+  font-size: 18px;
+  color: var(--main-color);
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.ci-social-share ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.ci-social-share ul li a {
+  display: block;
+  font-size: 14px;
+  color: #252525;
+  line-height: normal;
+}
+
+.icon-share {
+  background: url(../img/sprite-icon-share-social.png) no-repeat;
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 10px;
+}
+
+.icon-fb {
+  background-position: -5px -65px;
+}
+
+.icon-mess {
+  background-position: -5px -181px;
+}
+
+.icon-zl {
+  background-position: -5px -5px;
+}
+
+.icon-tw {
+  background-position: -5px -403px;
+}
+
+.icon-tl {
+  background-position: -5px -343px;
+}
+
+.icon-sk {
+  background-position: -5px -283px;
+}
+
+.zalo-share-button{
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-copy-url {
+  display: block;
+  min-width: 100%;
+  padding: 8px 5px;
+  background: #F2F2F2;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 5px;
+  font-size: 14px;
+  color: var(--main-color);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.btn-copy-url:hover {
+  border-color: var(--main-color);
+  color: #fff;
+  background-color: var(--main-color);
+}
