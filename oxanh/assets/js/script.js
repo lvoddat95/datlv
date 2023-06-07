@@ -1,25 +1,128 @@
 $(function () {
 	if ($(".ci-package-slider").length > 0) {
-		$(".ci-package-slider").slick({
-			infinite: false,
-			slidesToShow: 3,
-			responsive: [{
-					breakpoint: 1024,
-					settings: {
-						slidesToShow: 2,
-						slidesToScroll: 2,
-					},
-				},
-				{
-					breakpoint: 600,
-					settings: {
-						slidesToShow: 1,
-						slidesToScroll: 1,
-					},
-				},
-			],
+		var swiper_slider = new Swiper(".ci-slider", {
+			slidesPerView: 1,
+			// spaceBetween: 10,
+			loop: true,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			// breakpoints: {
+			//     640: {
+			//         slidesPerView: 2,
+			//         spaceBetween: 20,
+			//     },
+			//     768: {
+			//         slidesPerView: 4,
+			//         spaceBetween: 40,
+			//     },
+			//     1024: {
+			//         slidesPerView: 5,
+			//         spaceBetween: 50,
+			//     },
+			// },
 		});
 	}
+
+	if ($(".ci-package-slider").length > 0) {
+
+		var swiper_package_slider = new Swiper(".ci-package-slider", {
+			slidesPerView: 1,
+			spaceBetween: 12,
+			// loop: true,
+			// pagination: {
+			// 	el: ".swiper-pagination",
+			// 	clickable: true,
+			// },
+			// freeMode: true,
+			scrollbar: {
+				el: ".swiper-scrollbar",
+				hide: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+			breakpoints: {
+				640: {
+					slidesPerView: 1,
+					centeredSlides: true,
+				},
+				768: {
+					slidesPerView: 2,
+				},
+				1024: {
+					slidesPerView: 3,
+				},
+			},
+		});
+
+
+
+		// $(".ci-package-slider").slick({
+		// 	infinite: false,
+		// 	slidesToShow: 3,
+		// 	responsive: [{
+		// 			breakpoint: 1024,
+		// 			settings: {
+		// 				slidesToShow: 2,
+		// 				slidesToScroll: 2,
+		// 			},
+		// 		},
+		// 		{
+		// 			breakpoint: 600,
+		// 			settings: {
+		// 				slidesToShow: 1,
+		// 				slidesToScroll: 1,
+		// 			},
+		// 		},
+		// 	],
+		// });
+	}
+
+
+	var init = false;
+
+	function swiperCard() {
+		if (window.innerWidth <= 768) {
+			if (!init) {
+				init = true;
+				if ($(".account-menu-list").length > 0) {
+					var swiper_account_slider = new Swiper(".account-menu-list", {
+						slidesPerView: 3,
+						spaceBetween: 6,
+						grid: {
+							rows: 2,
+						},
+						pagination: {
+							el: ".swiper-pagination",
+							clickable: true,
+						},
+						breakpoints: {
+							640: {
+								slidesPerView: 2,
+							},
+							768: {
+								slidesPerView: 3,
+							},
+						},
+					});
+				}
+			}
+		} else if (init) {
+			swiper_account_slider.destroy();
+			init = false;
+		}
+	}
+	swiperCard();
+
+	window.addEventListener("resize", swiperCard);
+
 
 	if ($("#main-menu").length > 0) {
 		if (typeof hcOffcanvasNav == "undefined") {
@@ -622,6 +725,7 @@ if ($('.banner-video').length > 0) {
 
 	});
 }
+
 
 //Mở popup giữa màn hình
 function open_window_center(url, w = 800, h = 600) {
