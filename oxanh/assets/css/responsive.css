@@ -99,14 +99,14 @@
   margin-right: 44px;
 }
 
-.nav-á»‰tem-form {
+.nav-item-form {
   position: absolute !important;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
 
-.nav-á»‰tem-form .ci-menu-link {
+.nav-item-form .ci-menu-link {
   justify-content: center;
 }
 
@@ -164,6 +164,18 @@
     display: none;
   }
 
+  .webview .hc-offcanvas-nav {
+    display: none !important;
+  }
+
+  .webview .ci-content {
+    margin-top: 0;
+  }
+
+  .webview .ci-header {
+    display: none;
+  }
+
   .ci-header {
     position: fixed;
     left: 0;
@@ -211,6 +223,14 @@
     padding: 10px 30px;
   }
 
+  .ci-slider .slick-prev {
+    left: 0;
+  }
+
+  .ci-slider .slick-next {
+    right: 0;
+  }
+
   .slider-item__img {
     height: 440px;
   }
@@ -239,11 +259,6 @@
 }
 
 @media (max-width: 991px) {
-
-  .ci-heading {
-    margin-bottom: 12px;
-  }
-
   .ci-heading__sub {
     font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (991 - 300)));
     line-height: normal;
@@ -253,7 +268,6 @@
   .ci-heading__main {
     font-size: calc(20px + (36 - 20) * ((100vw - 300px) / (991 - 300)));
     line-height: normal;
-    margin-bottom: 12px;
   }
 
   .ci-about-item__icon h3 {
@@ -318,7 +332,9 @@
 }
 
 @media (max-width: 767px) {
+
   .ci-block {
+    overflow: hidden;
     padding: 30px 0;
   }
 
@@ -513,6 +529,10 @@
 }
 
 @media (max-width: 575px) {
+  .ci-menu-link {
+    margin-right: 0;
+  }
+
   .ci-docs__link {
     display: block;
   }
@@ -542,57 +562,13 @@
     display: none;
   }
 
-  .table-style tr td, .table-style tr th, .table-style tr td {
-    padding: 4px 10px;
-  }
+}
 
-  .ci-package-block .container {
-    max-width: 88%;
-  }
-
-  .ci-package-inner {
-    margin-left: -6%;
-    margin-right: -6%;
-  }
-
+@media (max-width: 475px) {
   .ci-package-block {
     padding-left: 15px;
     padding-right: 15px;
   }
-
-
-  .ci-package-item__top {
-    padding: 14px;
-    margin-bottom: 10px;
-  }
-
-  .ci-package-item__mid {
-    padding: 0 14px;
-  }
-
-  .ci-package-item__bottom {
-    padding: 0 14px;
-    margin: 10px 0;
-    text-align: center;
-  }
-
-  .ci-package-item__more {
-    text-align: center;
-    padding-bottom: 10px;
-  }
-
-  .ci-package-item__top span {
-    font-size: 1.6rem;
-  }
-
-  .ci-package-item__top h3 {
-    font-size: 1.4rem;
-  }
-
-
-}
-
-@media (max-width: 475px) {
 
   .auth-btn-agree .btn {
     width: 170px !important;
