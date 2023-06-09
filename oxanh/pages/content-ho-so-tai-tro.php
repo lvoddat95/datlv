@@ -13,10 +13,11 @@
         <div class="container">
             <section>
 
-                <h2 class="fz-20 fw-normal mb-4"><i class="fad fa-file-pen me-2 main-color"></i>Hồ sơ xin tài trợ</h2>
+                <h2 class="fz-20 fw-normal mb-4"><i class="fad fa-file-pen me-2 main-color fz-20"></i>Hồ sơ xin tài trợ
+                </h2>
 
                 <div class="bg-white px-4 py-4 radius-8">
-                    <div class="row fz-14">
+                    <div class="row mb-3">
                         <div class="col-lg-3 col-md-6 col-6">
                             <divp class="form-group">
                                 <span class="fw-medium">
@@ -67,12 +68,11 @@
                     </div>
 
                     <div class="list-ho-so">
-
                         <?php for ($i = 0; $i < 10; $i++) { ?>
                             <div class="ho-so">
                                 <a href="" class="ho-so-wrap">
                                     <div class="hs-img">
-                                        <span class="badge bg-warning rounded badge-sm position-absolute">
+                                        <span class="badge bg-warning rounded badge-sm position-absolute fz-14">
                                             <?php echo $i + 1; ?>
                                         </span>
                                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/tin-tuc-oxanh.png"
@@ -98,21 +98,22 @@
                                     </div>
                                 </a>
                             </div>
-
                         <?php } ?>
 
 
-
-
-
                     </div>
-
                 </div>
 
-                <nav class="mt-3 d-flex justify-content-end">
+                <nav class="mt-3 d-flex align-items-center justify-content-between">
+                    <div class="d-inline-block align-middle">
+                        <span>Hiển thị </span>
+                        <input class="form-control d-inline-block align-middle px-1 mx-2 text-center" type="number"
+                            name="" value="10" min="1" max="200" style="min-width: auto;width: 54px">
+                        <span>trên tổng số <b>120</b> hồ sơ</span>
+                    </div>
                     <ul class="pagination">
-                        <li class="page-item">
-                            <a class="page-link" disable="" href="#"><i class="fas fa-arrow-left"></i></a>
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#"><i class="fas fa-arrow-left"></i></a>
                         </li>
                         <li class="page-item active">
                             <a class="page-link " href="#">1</a>
@@ -128,7 +129,6 @@
                         </li>
                     </ul>
                 </nav>
-
             </section>
         </div>
     </div>
@@ -137,10 +137,11 @@
         <div class="container">
             <section>
 
-                <h2 class="fz-20 fw-normal mb-4"><i class="fad fa-file-check me-2 main-color"></i>Hồ sơ tài trợ đã được duyệt
+                <h2 class="fz-20 fw-normal mb-4"><i class="fad fa-file-check me-2 main-color fz-20"></i>Hồ sơ tài trợ đã
+                    được duyệt
                 </h2>
 
-                <div class="row fz-14">
+                <div class="row mb-3">
                     <div class="col-lg-3 col-md-6 col-6">
                         <divp class="form-group">
                             <span class="fw-medium">
@@ -197,7 +198,7 @@
                             <div class="ho-so">
                                 <a href="" class="ho-so-wrap">
                                     <div class="hs-img">
-                                        <span class="badge bg-warning rounded badge-sm position-absolute">
+                                        <span class="badge bg-warning rounded badge-sm position-absolute fz-14">
                                             <?php echo $i + 1; ?>
                                         </span>
                                         <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/tin-tuc-oxanh.png"
@@ -225,22 +226,19 @@
                             </div>
 
                         <?php } ?>
-
-
-
-
-
-
                     </div>
-
-
-
                 </div>
 
-                <nav class="mt-3 d-flex justify-content-end">
+                <nav class="mt-3 d-flex align-items-center justify-content-between">
+                    <div class="d-inline-block align-middle">
+                        <span>Hiển thị </span>
+                        <input class="form-control d-inline-block align-middle px-1 mx-2 text-center" type="number"
+                            name="" value="10" min="1" max="200" style="min-width: auto;width: 54px">
+                        <span>trên tổng số <b>120</b> hồ sơ</span>
+                    </div>
                     <ul class="pagination">
-                        <li class="page-item">
-                            <a class="page-link" disable="" href="#"><i class="fas fa-arrow-left"></i></a>
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#"><i class="fas fa-arrow-left"></i></a>
                         </li>
                         <li class="page-item active">
                             <a class="page-link " href="#">1</a>
