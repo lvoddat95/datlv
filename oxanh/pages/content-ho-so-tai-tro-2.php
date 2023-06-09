@@ -9,7 +9,7 @@
 
 
 <div class="pt-0 bg-grey overflow-visible">
-    <div class="ci-block pb-0">
+    <div class="ci-block">
         <div class="container">
 
             <section>
