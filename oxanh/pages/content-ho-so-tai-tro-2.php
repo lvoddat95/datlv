@@ -37,7 +37,7 @@
                         <!-- Tab panes -->
                         <div class="tab-content">
 
-                            <div class="tab-pane active" id="hs-xin-tai-tro" role="tabpanel"
+                            <div class="tab-pane " id="hs-xin-tai-tro" role="tabpanel"
                                 aria-labelledby="hs-xin-tai-tro">
                                 <section>
                                     <div class="row mb-3">
@@ -162,7 +162,7 @@
                             </div>
 
 
-                            <div class="tab-pane" id="hs-da-tai-tro" role="tabpanel" aria-labelledby="hs-da-tai-tro">
+                            <div class="tab-pane active" id="hs-da-tai-tro" role="tabpanel" aria-labelledby="hs-da-tai-tro">
                                 <section>
                                     <div class="row mb-3">
                                         <div class="col-lg-3 col-md-6 col-6">
