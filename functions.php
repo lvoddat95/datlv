@@ -1,5 +1,7 @@
 <?php
 
+flush_rewrite_rules( true );
+
 /**
  * write functions and definitions
  *

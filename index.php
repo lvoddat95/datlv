@@ -14,24 +14,26 @@
 
 get_header();
 ?>
-
+<?php if (current_user_can('editor') || current_user_can('administrator')) { ?>
 	<main class="site-main col-lg-10 mx-auto p-3 py-md-3">
 		<div class="row g-5">
 			<div id="primary" class="col-md-8">
 
 				<?php
-				if ( have_posts() ) :
+				if (have_posts()):
 
-					if ( is_home() && ! is_front_page() ) :
+					if (is_home() && !is_front_page()):
 						?>
 						<header>
-							<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+							<h1 class="page-title screen-reader-text">
+								<?php single_post_title(); ?>
+							</h1>
 						</header>
 						<?php
 					endif;
 
 					/* Start the Loop */
-					while ( have_posts() ) :
+					while (have_posts()):
 						the_post();
 
 						/*
@@ -39,17 +41,17 @@ get_header();
 						 * If you want to override this in a child theme, then include a file
 						 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 						 */
-						get_template_part( 'template-parts/content', get_post_type() );
+						get_template_part('template-parts/content', get_post_type());
 
 					endwhile;
 
-					if ( class_exists( 'Jetpack' ) && !Jetpack::is_module_active( 'infinite-scroll' ) ) :
+					if (class_exists('Jetpack') && !Jetpack::is_module_active('infinite-scroll')):
 						the_posts_pagination();
 					endif;
 
-				else :
+				else:
 
-					get_template_part( 'template-parts/content', 'none' );
+					get_template_part('template-parts/content', 'none');
 
 				endif;
 				?>
@@ -58,4 +60,5 @@ get_header();
 			<?php get_sidebar(); ?>
 		</div><!-- .col-md-8 -->
 	</main><!-- #main -->
+<?php } ?>
 <?php get_footer(); ?>

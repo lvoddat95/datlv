@@ -12,7 +12,7 @@
                     <div class="text-center mt-2 mb-5">
                         <h3 class="auth-title">ĐĂNG NHẬP TÀI KHOẢN</h3>
                     </div>
-                    <form action="dang-ky2.php">
+                    <form action="dang-ky/">
 
                         <div class="mb-4">
                             <label for="username" class="form-label">Tài khoản</label>

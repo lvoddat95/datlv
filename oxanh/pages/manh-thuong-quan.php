@@ -7,12 +7,12 @@
 
         <?php include_once NAVBAR; ?>
 
-        <div class="ci-breadcrumb" style="background-image: url(<?php echo HTTP_PATH; ?>/assets/img/blog.jpg);">
+        <div class="ci-breadcrumb" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/giup-do.jpg);">
             <div class="container">
                 <div class="ci-breadcrumb-inner">
-                    <h1 class="ci-breadcrumb-title">Tin tức</h1>
+                    <h1 class="ci-breadcrumb-title">Mạnh thường quân</h1>
                     <div class="ci-breadcrumb-desc">
-                        Thông tin ưu đãi, con người và văn hoá Ô Xanh
+                        Tin tức sự kiện liên quan đến các mạnh thường quân
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
                             <div class="ci-blog-slider__item">
                                 <div class="row">
                                     <div class="col-lg-7">
-                                        <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/blog01.jpg" alt="Slider">
+                                        <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog01.jpg" alt="Slider">
                                     </div>
                                     <div class="col-lg-5 d-flex align-items-center">
                                         <div class="ci-blog-info">
@@ -56,7 +56,7 @@
                             <div class="ci-blog-slider__item">
                                 <div class="row">
                                     <div class="col-lg-7">
-                                        <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/blog02.jpg" alt="Slider">
+                                        <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog02.jpg" alt="Slider">
                                     </div>
                                     <div class="col-lg-5 d-flex align-items-center">
                                         <div class="ci-blog-info">
@@ -83,7 +83,7 @@
                             <div class="ci-blog-slider__item">
                                 <div class="row">
                                     <div class="col-lg-7">
-                                        <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/blog03.jpg" alt="Slider">
+                                        <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog03.jpg" alt="Slider">
                                     </div>
                                     <div class="col-lg-5 d-flex align-items-center">
                                         <div class="ci-blog-info">
@@ -110,7 +110,7 @@
                             <div class="ci-blog-slider__item">
                                 <div class="row">
                                     <div class="col-lg-7">
-                                        <img class="img-fluid" src="<?php echo HTTP_PATH; ?>/assets/img/blog04.jpg" alt="Slider">
+                                        <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog04.jpg" alt="Slider">
                                     </div>
                                     <div class="col-lg-5 d-flex align-items-center">
                                         <div class="ci-blog-info">
@@ -142,7 +142,7 @@
                         <div class="slider-item col-lg-4 mb-4">
                             <div class="ci-blog-slider__item item-style2">
                                 <div class="ci-blog-img">
-                                    <img class="w-100 of-cover lazyload" src="<?php echo HTTP_PATH; ?>/assets/img/5_Du-bao-tinh-hinh-ung-thu.jpg" alt="Danh mục và tỷ lệ, điều kiện thanh toán đối với thuốc, vật tư y tế thuộc phạm vi được hưởng của người tham gia  y tế" width="362" height="240">
+                                    <img class="w-100 of-cover lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/5_Du-bao-tinh-hinh-ung-thu.jpg" alt="Danh mục và tỷ lệ, điều kiện thanh toán đối với thuốc, vật tư y tế thuộc phạm vi được hưởng của người tham gia  y tế" width="362" height="240">
                                 </div>
                                 <div class="ci-blog-info">
                                     <h3 class="ci-blog-info__title">
@@ -159,7 +159,7 @@
                         <div class="slider-item col-lg-4 mb-4">
                             <div class="ci-blog-slider__item item-style2">
                                 <div class="ci-blog-img">
-                                    <img class="w-100 of-cover lazyload" src="<?php echo HTTP_PATH; ?>/assets/img/4_Y-nghia-cua-viec-tinh-diem-tin-nhiem-tin-dung-ca-nhan-voi-Ngan-hang-va-nen-tang-tuong-tro-truc-tuyen.png" alt="Danh mục bệnh hiểm nghèo do Nhà nước quy định" width="362" height="240">
+                                    <img class="w-100 of-cover lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/4_Y-nghia-cua-viec-tinh-diem-tin-nhiem-tin-dung-ca-nhan-voi-Ngan-hang-va-nen-tang-tuong-tro-truc-tuyen.png" alt="Danh mục bệnh hiểm nghèo do Nhà nước quy định" width="362" height="240">
                                 </div>
                                 <div class="ci-blog-info">
                                     <h3 class="ci-blog-info__title">
@@ -176,7 +176,7 @@
                         <div class="slider-item col-lg-4 mb-4">
                             <div class="ci-blog-slider__item item-style2">
                                 <div class="ci-blog-img">
-                                    <img class="w-100 of-cover lazyload" src="<?php echo HTTP_PATH; ?>/assets/img/3_moi-nam-vn-co-them-2000-nguoi-mac-benh-ung-thu.jpg" alt="Mỗi năm Việt Nam có thêm gần 200.000 người mắc bệnh ung thư" width="362" height="240">
+                                    <img class="w-100 of-cover lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/3_moi-nam-vn-co-them-2000-nguoi-mac-benh-ung-thu.jpg" alt="Mỗi năm Việt Nam có thêm gần 200.000 người mắc bệnh ung thư" width="362" height="240">
                                 </div>
                                 <div class="ci-blog-info">
                                     <h3 class="ci-blog-info__title">
@@ -193,7 +193,7 @@
                         <div class="slider-item col-lg-4 mb-4">
                             <div class="ci-blog-slider__item item-style2">
                                 <div class="ci-blog-img">
-                                    <img class="w-100 of-cover lazyload" src="<?php echo HTTP_PATH; ?>/assets/img/2_bao-hiem-benh-hiem-ngheo.jpg" alt="Ý nghĩa của việc tính điểm tín nhiệm tín dụng cá nhân với Ngân hàng và nền tảng tương trợ trực tuyến" width="362" height="240">
+                                    <img class="w-100 of-cover lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/2_bao-hiem-benh-hiem-ngheo.jpg" alt="Ý nghĩa của việc tính điểm tín nhiệm tín dụng cá nhân với Ngân hàng và nền tảng tương trợ trực tuyến" width="362" height="240">
                                 </div>
                                 <div class="ci-blog-info">
                                     <h3 class="ci-blog-info__title">
@@ -210,7 +210,7 @@
                         <div class="slider-item col-lg-4 mb-4">
                             <div class="ci-blog-slider__item item-style2">
                                 <div class="ci-blog-img">
-                                    <img class="w-100 of-cover lazyload" src="<?php echo HTTP_PATH; ?>/assets/img/1_danh-muc-thuoc.jpeg" alt="Những bệnh nặng và bệnh hiểm nghèo người Việt hay gặp nhất" width="362" height="240">
+                                    <img class="w-100 of-cover lazyload" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/1_danh-muc-thuoc.jpeg" alt="Những bệnh nặng và bệnh hiểm nghèo người Việt hay gặp nhất" width="362" height="240">
                                 </div>
                                 <div class="ci-blog-info">
                                     <h3 class="ci-blog-info__title">

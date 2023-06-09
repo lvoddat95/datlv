@@ -1,7 +1,7 @@
-<div class="ci-breadcrumb" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/breadcrumb-bg.jpg);">
+<div class="ci-breadcrumb" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/ho-so-tai-tro.jpg);">
     <div class="container">
         <div class="ci-breadcrumb-inner">
-            <h1 class="ci-breadcrumb-title">Giới thiệu</h1>
+            <h1 class="ci-breadcrumb-title">Hồ sơ tài trợ</h1>
         </div>
     </div>
 </div>
