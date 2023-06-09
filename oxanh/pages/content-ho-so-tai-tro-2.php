@@ -17,18 +17,19 @@
                     <div class="sp-tabs">
                         <!-- Nav tabs -->
                         <ul class="nav nav-tabs" role="tablist">
+
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#hs-xin-tai-tro"
-                                    type="button" role="tab" aria-controls="hs-xin-tai-tro" aria-selected="true">
-                                    <i class="fad fa-file-pen me-2 main-color fz-20"></i>
-                                    <span>Hồ sơ xin tài trợ </span>
-                                </button>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#hs-da-tai-tro"
+                                <button class="nav-link  active" data-bs-toggle="tab" data-bs-target="#hs-da-tai-tro"
                                     type="button" role="tab" aria-controls="hs-da-tai-tro" aria-selected="false">
                                     <i class="fad fa-file-check me-2 fz-20"></i>
                                     <span>Hồ sơ tài trợ đã được duyệt</span>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" data-bs-toggle="tab" data-bs-target="#hs-xin-tai-tro"
+                                    type="button" role="tab" aria-controls="hs-xin-tai-tro" aria-selected="true">
+                                    <i class="fad fa-file-pen me-2 main-color fz-20"></i>
+                                    <span>Hồ sơ xin tài trợ </span>
                                 </button>
                             </li>
                         </ul>
@@ -96,7 +97,8 @@
 
                                         <?php for ($i = 0; $i < 10; $i++) { ?>
                                             <div class="ho-so">
-                                                <a href="<?php echo esc_url(home_url('/oxanh/xem-ho-so/')); ?>" class="ho-so-wrap">
+                                                <a href="<?php echo esc_url(home_url('/oxanh/xem-ho-so/')); ?>"
+                                                    class="ho-so-wrap">
                                                     <div class="hs-img">
                                                         <span
                                                             class="badge bg-warning rounded badge-sm position-absolute fz-14">
@@ -132,8 +134,10 @@
                                     <nav class="mt-3 d-flex align-items-center justify-content-between">
                                         <div class="d-inline-block align-middle">
                                             <span>Hiển thị </span>
-                                            <input class="form-control d-inline-block align-middle px-1 mx-2 text-center" type="number" name=""
-                                                value="10" min="1" max="200" style="min-width: auto;width: 54px">
+                                            <input
+                                                class="form-control d-inline-block align-middle px-1 mx-2 text-center"
+                                                type="number" name="" value="10" min="1" max="200"
+                                                style="min-width: auto;width: 54px">
                                             <span>trên tổng số <b>120</b> hồ sơ</span>
                                         </div>
                                         <ul class="pagination">
@@ -216,7 +220,8 @@
                                     <div class="list-ho-so">
                                         <?php for ($i = 0; $i < 10; $i++) { ?>
                                             <div class="ho-so">
-                                                <a href="<?php echo esc_url(home_url('/oxanh/xem-ho-so/')); ?>" class="ho-so-wrap">
+                                                <a href="<?php echo esc_url(home_url('/oxanh/xem-ho-so/')); ?>"
+                                                    class="ho-so-wrap">
                                                     <div class="hs-img">
                                                         <span
                                                             class="badge bg-warning rounded badge-sm position-absolute fz-14">
@@ -258,8 +263,10 @@
                                     <nav class="mt-3 d-flex align-items-center justify-content-between">
                                         <div class="d-inline-block align-middle">
                                             <span>Hiển thị </span>
-                                            <input class="form-control d-inline-block align-middle px-1 mx-2 text-center" type="number" name=""
-                                                value="10" min="1" max="200" style="min-width: auto;width: 54px">
+                                            <input
+                                                class="form-control d-inline-block align-middle px-1 mx-2 text-center"
+                                                type="number" name="" value="10" min="1" max="200"
+                                                style="min-width: auto;width: 54px">
                                             <span>trên tổng số <b>120</b> hồ sơ</span>
                                         </div>
                                         <ul class="pagination">
