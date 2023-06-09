@@ -96,7 +96,7 @@
 
                                         <?php for ($i = 0; $i < 10; $i++) { ?>
                                             <div class="ho-so">
-                                                <a href="" class="ho-so-wrap">
+                                                <a href="<?php echo esc_url(home_url('/oxanh/xem-ho-so/')); ?>" class="ho-so-wrap">
                                                     <div class="hs-img">
                                                         <span
                                                             class="badge bg-warning rounded badge-sm position-absolute fz-14">
@@ -216,7 +216,7 @@
                                     <div class="list-ho-so">
                                         <?php for ($i = 0; $i < 10; $i++) { ?>
                                             <div class="ho-so">
-                                                <a href="" class="ho-so-wrap">
+                                                <a href="<?php echo esc_url(home_url('/oxanh/xem-ho-so/')); ?>" class="ho-so-wrap">
                                                     <div class="hs-img">
                                                         <span
                                                             class="badge bg-warning rounded badge-sm position-absolute fz-14">
