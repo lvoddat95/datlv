@@ -120,7 +120,7 @@
                                             <p>Nếu thanh toán mà bạn không ghi rõ nội dung thanh toán theo đúng cú pháp, phần mềm sẽ không nhận ra bạn đã thanh toán,
                                                 trường hợp đó bạn cần điện thoại cho tổng đài hoặc hotline của Ô Xanh để nhờ trơ giúp. </p>
 
-                                            <a href="?php echo esc_url(home_url('/oxanh/')); ?>/pages/dang-ky2.php">Link đường dẫn vào web/app đăng ký thành viên</a>
+                                            <a href="<?php echo esc_url(home_url('/oxanh/')); ?>/dang-ky2.php">Link đường dẫn vào web/app đăng ký thành viên</a>
                                         </div>
                                     </div>
                                 </div>

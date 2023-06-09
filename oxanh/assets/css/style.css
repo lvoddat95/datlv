@@ -6432,7 +6432,7 @@ Flaticon icon font: Flaticon
 
 /* SHARE */
 
-.ci-btn-share > .btn {
+.ci-btn-share>.btn {
   border-radius: 5px;
   padding: 3px 10px;
   color: #fff;
@@ -6502,7 +6502,7 @@ Flaticon icon font: Flaticon
   background-position: -5px -283px;
 }
 
-.zalo-share-button{
+.zalo-share-button {
   text-align: center;
   cursor: pointer;
 }
@@ -6524,4 +6524,80 @@ Flaticon icon font: Flaticon
   border-color: var(--main-color);
   color: #fff;
   background-color: var(--main-color);
+}
+
+.list-ho-so {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.ho-so {
+  flex: 0 0 auto;
+  width: 50%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.hs-img img {
+  width: 170px;
+  border-radius: 0.75rem;
+  height: 120px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.hs-info {
+  color: var(--dark);
+  font-size: var(--fz-16);
+}
+
+.ho-so-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.ho-so-wrap:hover::before {
+  opacity: 1;
+}
+
+.ho-so-wrap::before {
+  content: "";
+  position: absolute;
+  opacity: 0;
+  inset: -0.625rem;
+  border-radius: 20px;
+  background-color: rgb(249 250 251 /1);
+  box-shadow: 0 0 var(--spacing--m) #e6e6e6;
+
+}
+
+.ho-so-wrap>* {
+  position: relative;
+}
+
+.hs-list li {
+  padding: 3px 0;
+}
+
+@media (max-width: 991px) {
+  .hs-img img {
+    width: 120px;
+    height: 90px;
+  }
+
+  .hs-info {
+    font-size: var(--fz-14);
+  }
+
+  .hs-list li {
+    padding: 1px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .ho-so { 
+    width: 100%;
+  }
 }

@@ -13,7 +13,7 @@
                         <div class="auth-content d-flex flex-column justify-content-center my-3 my-lg-5">
                             <div>
                                 <div class="text-center">
-                                    <a href="?php echo esc_url(home_url('/oxanh/')); ?>/">
+                                    <a href="<?php echo esc_url(home_url('/oxanh/')); ?>">
                                         <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/logo/logo-nav.png" alt="Logo" width="180px">
                                     </a>
                                 </div>

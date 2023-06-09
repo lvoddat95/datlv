@@ -1,4 +1,5 @@
-<div class="ci-breadcrumb" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/ho-so-tai-tro.jpg);">
+<div class="ci-breadcrumb"
+    style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/ho-so-tai-tro.jpg);">
     <div class="container">
         <div class="ci-breadcrumb-inner">
             <h1 class="ci-breadcrumb-title">Hồ sơ tài trợ</h1>
@@ -6,279 +7,256 @@
     </div>
 </div>
 
-<div class="ci-block">
-    <div class="container">
-        <div class="row gx-lg-5 align-items-center">
-            <div class="col-md-7">
-                <div class="ci-heading">
-                    <h2 class="ci-heading__main">Công ty Cổ phần <br>Công nghệ Internet Ô Xanh</h2>
-                </div>
-                <div class="fz-16" style="text-align: justify;">
-                    Quý vị thân mến, Công ty Cổ phần Công nghệ Internet Ô Xanh (sau đây gọi là "Công ty Internet Ô Xanh", "
-                    Nền tảng trợ giúp lẫn nhau Ô Xanh ", “ Ô Xanh” hoặc " chúng tôi ") là công ty công nghệ internet đi tiên phong trong việc ứng dụng công nghệ vào lĩnh vực tương trợ, nâng cao sức khỏe cộng đồng.
-                    <br><br>
-                    Như Quý vị đã biết, các hình thức tương trợ đã có từ rất sớm. Thế kỷ IV trước công nguyên, những người Hy Lạp cổ đại đã cùng nhau tương trợ cho những người đi biển không may bị mất hàng hóa.
-                    Ở Anh, vào thế kỷ XVII một quán café được bảo lãnh bởi các thương gia giàu có trong giới tài chính đã trở thành nơi uy tín và tiềm năng nhất để...
-                </div>
-            </div>
-            <div class="col-md-5 ">
-                <div class="ps-lg-5">
-                    <img class="img-fluid radius-16 overflow-hidden of-cover" width="100%" height="300px" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/umbrella.jpg" alt="Ô Xanh">
-                    <div class="ci-btn-share dropdown mt-3">
-                        <button class="btn dropdown-toggle dropdown-hide-arrow" data-bs-toggle="dropdown">
-                            <i class="fa fa-fw fa-share"></i> <span>Chia sẻ thông tin</span>
-                        </button>
-                        <div class="ci-social-share dropdown-menu dropdown-menu-end">
-                            <h3>Chia sẻ thông tin hữu ích</h3>
-                            <ul class="list-unstyled">
-                                <li>
-                                    <a href="javascript:void(0);" onclick="open_window_center('https://www.facebook.com/sharer/sharer.php?u=https://oxanh.vn/', '', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, height=600, width=600');return false;" class="text-center share-popup">
-                                        <span class="icon-share icon-fb"></span>
-                                        Facebook
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);" onclick="open_window_center('https://www.facebook.com/dialog/send?app_id=5303202981&display=popup&link=https://oxanh.vn/&redirect_uri=https://oxanh.vn/')" class="text-center share-popup">
-                                        <span class="icon-share icon-mess"></span>
-                                        Facebook <br>Messenger
-                                    </a>
-                                </li>
-                                <li>
-                                    <div class="zalo-share-button" data-customize="true" data-href="https://oxanh.vn/" data-oaid="1725754398893171259" data-layout="4" data-color="blue" data-customize="false">
-                                        <span class="icon-share icon-zl"></span>
-                                        <span>Zalo</span>
+
+<div class="pt-0 bg-grey overflow-visible">
+    <div class="ci-block">
+        <div class="container">
+            <section>
+                <h2 class="fz-20 fw-normal mb-4">Hồ sơ xin tài trợ</h2>
+
+                <div class="bg-white px-4 py-4 radius-8">
+                    <div class="row fz-14">
+                        <div class="col-lg-3 col-md-6 col-6">
+                            <divp class="form-group">
+                                <span class="fw-medium">
+                                    Từ khoá:
+                                </span>
+                                <div>
+                                    <input type="text" class="form-control form-control"
+                                        placeholder="Họ tên, Số điện thoại,..." id="">
+                                </div>
+                            </divp>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-6">
+                            <div class="form-group">
+                                <span class="fw-medium">
+                                    Từ ngày
+                                </span>
+                                <div class="position-relative">
+                                    <input type="text" class="form-control form-control input-date datepicker"
+                                        placeholder="dd/mm/yyyy" id="">
+                                    <i class="fad fa-calendar-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-6">
+                            <div class="form-group">
+                                <span class="fw-medium">
+                                    Đến ngày
+                                </span>
+                                <div class="position-relative">
+                                    <input type="text" class="form-control form-control input-date datepicker"
+                                        placeholder="dd/mm/yyyy" id="">
+                                    <i class="fad fa-calendar-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-6">
+                            <div class="form-group">
+                                <label class="l-contact w100p">
+                                    &nbsp;
+                                </label>
+                                <button class="btn border-ccc fw-medium fz-14" onclick="document.filter_form.submit();">
+                                    <i class="far fa-search me-2"></i>Tìm kiếm</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="list-ho-so">
+
+                        <?php for ($i = 0; $i < 10; $i++) { ?>
+                            <div class="ho-so">
+                                <a href="" class="ho-so-wrap">
+                                    <div class="hs-img">
+                                        <span class="badge bg-warning rounded badge-sm position-absolute">
+                                            <?php echo $i + 1; ?>
+                                        </span>
+                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/tin-tuc-oxanh.png"
+                                            alt="#">
                                     </div>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);" onclick="open_window_center('https://twitter.com/intent/tweet?&url=https://oxanh.vn/')" class="text-center share-popup">
-                                        <span class="icon-share icon-tw"></span>
-                                        Twitter
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);" onclick="open_window_center('https://t.me/share/url?url=https://oxanh.vn/')" class="text-center share-popup">
-                                        <span class="icon-share icon-tl"></span>
-                                        Telegram
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:void(0);" onclick="open_window_center('https://web.skype.com/share?url=https://oxanh.vn/')" class="text-center share-popup">
-                                        <span class="icon-share icon-sk"></span>
-                                        Skype
-                                    </a>
-                                </li>
-                            </ul>
+                                    <div class="hs-info">
+                                        <ul class="hs-list list-unstyled mb-0">
+                                            <li>
+                                                <i class="fa fa-user gray-color fa-fw"></i>
+                                                <span>Họ tên: Nguyễn Văn A</span>
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-phone gray-color fa-fw"></i>
+                                                <span>Số điện thoại: 0987 654 321</span>
+                                            </li>
+                                            <li>
+                                                <span class="text-danger">
+                                                    <i class="fa fa-circle-check fa-fw"></i>
+                                                    <span>Chờ duyệt</span>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </div>
 
-                            <div class="ci-btn-copy">
-                                <a class="btn btn-copy-url" href="javascript:void(0);" onclick="coppy_url();" title="Copy link">Copy link</a>
+                        <?php } ?>
+
+
+
+
+
+                    </div>
+
+                </div>
+
+                <nav class="mt-3 d-flex justify-content-end">
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" disable="" href="#"><i class="fas fa-arrow-left"></i></a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link " href="#">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#"><i class="fas fa-arrow-right"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </div>
+
+    <div class="ci-block ci-block-sm-tn bg-grey">
+        <div class="container">
+            <div class="row gx-5" style="position: relative;z-index: 1;">
+                <section>
+                    <h2 class="fz-20 fw-normal mb-4">Hồ sơ tài trợ đã được duyệt</h2>
+
+                    <div class="bg-white px-4 py-4 radius-8">
+                        <div class="row fz-14">
+                            <div class="col-lg-3 col-md-6 col-6">
+                                <divp class="form-group">
+                                    <span class="fw-medium">
+                                        Từ khoá:
+                                    </span>
+                                    <div>
+                                        <input type="text" class="form-control form-control"
+                                            placeholder="Họ tên, Số điện thoại,..." id="">
+                                    </div>
+                                </divp>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-6">
+                                <div class="form-group">
+                                    <span class="fw-medium">
+                                        Từ ngày
+                                    </span>
+                                    <div class="position-relative">
+                                        <input type="text" class="form-control form-control input-date datepicker"
+                                            placeholder="dd/mm/yyyy" id="">
+                                        <i class="fad fa-calendar-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-6">
+                                <div class="form-group">
+                                    <span class="fw-medium">
+                                        Đến ngày
+                                    </span>
+                                    <div class="position-relative">
+                                        <input type="text" class="form-control form-control input-date datepicker"
+                                            placeholder="dd/mm/yyyy" id="">
+                                        <i class="fad fa-calendar-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-6">
+                                <div class="form-group">
+                                    <label class="l-contact w100p">
+                                        &nbsp;
+                                    </label>
+                                    <button class="btn border-ccc fw-medium fz-14"
+                                        onclick="document.filter_form.submit();">
+                                        <i class="far fa-search me-2"></i>Tìm kiếm</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="ci-block ci-block-sm-tn bg-grey">
-    <div class="container">
-        <div class="row gx-5" style="position: relative;z-index: 1;">
-            <div class="col-md-10 offset-md-1 col-12">
-                <div class="row gx-5">
-                    <div class="col-md-6 col-12">
-                        <div class="info-sm-tn">
-                            <div class="ci-heading pe-md-5 me-md-5">
-                                <h2 class="ci-heading__main text-md-end text-start">
-                                    Tầm nhìn
-                                    <span class="d-md-block d-inline-block">&</span>
-                                    Sứ mệnh
-                                </h2>
-                            </div>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="39" class="d-md-block d-none">
-                                <g>
-                                    <g>
-                                        <path class="mcbetter-1" d="M0,16.86A8.43,8.43,0,1,0,8.6,8.44a11.75,11.75,0,0,1,8.26-3.38V0A16.86,16.86,0,0,0,0,16.86ZM34.94,0A16.86,16.86,0,0,0,18.08,16.86a8.43,8.43,0,1,0,8.6-8.42,11.75,11.75,0,0,1,8.26-3.38Z"></path>
-                                        <path class="mcbetter-1" d="M17.47,214.12a1.31,1.31,0,0,1-1.31-1.31V29.46a1.31,1.31,0,1,1,2.62,0V212.81A1.31,1.31,0,0,1,17.47,214.12Z"></path>
-                                    </g>
-                                </g>
-                            </svg>
+                        <div class="list-ho-so">
+
+                            <?php for ($i = 0; $i < 10; $i++) { ?>
+                                <div class="ho-so">
+                                    <a href="" class="ho-so-wrap">
+                                        <div class="hs-img">
+                                            <span class="badge bg-warning rounded badge-sm position-absolute">
+                                                <?php echo $i + 1; ?>
+                                            </span>
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/tin-tuc-oxanh.png"
+                                                alt="#">
+                                        </div>
+                                        <div class="hs-info">
+                                            <ul class="hs-list list-unstyled mb-0">
+                                                <li>
+                                                    <i class="fa fa-user gray-color fa-fw"></i>
+                                                    <span>Họ tên: Nguyễn Văn A</span>
+                                                </li>
+                                                <li>
+                                                    <i class="fa fa-phone gray-color fa-fw"></i>
+                                                    <span>Số điện thoại: 0987 654 321</span>
+                                                </li>
+                                                <li>
+                                                    <span class="text-success">
+                                                        <i class="fa fa-circle-check fa-fw"></i>
+                                                        <span>Đã duyệt</span>
+                                                    </span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            <?php } ?>
+
+
+
+
+
+
                         </div>
-                    </div>
-                    <div class="col-md-6 col-12">
-                        <p class="fz-16">Ô Xanh là công ty tiên phong trong lĩnh vực phát triển sức khỏe cộng đồng và là điểm tựa vững chắc cho bệnh nhân không may mắc bệnh hiểm nghèo.</p>
-                        <p class="fz-16">Luôn chở che, động viên, an ủi từng bệnh nhân Việt không may mắc bệnh hiểm nghèo.</p>
-                    </div>
-                </div>
-                <div class="row gx-1 mb-1">
-                    <div class="col-md-7">
-                        <figure class="gallery-img mb-0">
-                            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog02.jpg" alt="O xanh">
-                        </figure>
-                    </div>
-                    <div class="col-md-5">
-                        <figure class="gallery-img mb-0">
-                            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog03.jpg" alt="O xanh">
-                        </figure>
-                    </div>
-                </div>
-                <div class="row gx-1">
-                    <div class="col-md-5">
-                        <figure class="gallery-img mb-0">
-                            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog04.jpg" alt="O xanh">
-                        </figure>
-                    </div>
-                    <div class="col-md-7">
-                        <figure class="gallery-img mb-0">
-                            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/gia-dinh2.jpg" alt="O xanh">
-                        </figure>
+
+
+
                     </div>
 
-                </div>
-
+                    <nav class="mt-3 d-flex justify-content-end">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" disable="" href="#"><i class="fas fa-arrow-left"></i></a>
+                            </li>
+                            <li class="page-item active">
+                                <a class="page-link " href="#">1</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">3</a>
+                            </li>
+                            <li class="page-item">
+                                <a class="page-link" href="#"><i class="fas fa-arrow-right"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
             </div>
         </div>
     </div>
-</div>
 
-<div class="ci-block ">
-    <div class="container">
-        <div class="ci-heading">
-            <h2 class="ci-heading__main">Giá trị cốt lõi</h2>
-        </div>
-        <p class="fz-16 mb-5">Ô Xanh luôn mang đến khách hàng những trải nghiệm mới mẻ, giúp quá trình tham gia bảo hiểm đơn giản, <br>
-            nhanh chóng và dễ dàng hơn với các giải pháp sáng tạo, sản phẩm dễ hiểu được hỗ trợ bởi công nghệ số thông minh.</p>
-        <div class="text-center">
-            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/pages/oxanh-gia-tri.jpg" alt="O xanh">
-        </div>
-    </div>
-</div>
-
-<div class="ci-block ">
-    <div class="container">
-
-        <div class="ci-heading">
-            <h2 class="ci-heading__main">Đội ngũ lãnh đạo</h2>
-        </div>
-        <div class="fz-16 mb-5">
-            Chúng tôi tin rằng văn hoá và môi trường làm việc đáng mơ ước xuất phát từ việc xây dựng được một đội ngũ có
-            khả năng đưa ra quyết định xuất chúng. Tại Ô Xanh, đội ngũ lãnh đạo chính là những người như thế - sắc bén, cởi mở và giàu kinh nghiệm.
-        </div>
-
-        <div class="text-center">
-            <img class="img-fluid" src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/pages/oxanh-to-chuc.jpg" alt="O xanh">
-        </div>
-
-    </div>
-</div>
-
-<div class="ci-block bg-outbox overflow-visible">
-    <div class="container">
-
-        <div class="ci-heading">
-            <h2 class="ci-heading__main">Chức năng nhiệm vụ</h2>
-        </div>
-
-        <div id="accordion" class="accordion ci-faq ci-faq2 fz-16">
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <button class="accordion-button text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapseOne">
-                        Ban Tổng giám đốc
-                    </button>
-                </div>
-                <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#accordion">
-                    <div class="accordion-body">
-                        01 TGĐ phụ trách chung <br>
-                        01 PTGĐ phụ trách phát triển hệ thống thành viên <br>
-                        01 PTGĐ phụ trách công nghệ thông tin
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="true" aria-controls="collapseOne">
-                        Ban Marketing và truyền thông
-                    </button>
-                </div>
-                <div id="collapse2" class="accordion-collapse collapse " data-bs-parent="#accordion">
-                    <div class="accordion-body">
-                        Bao gồm 01 Trưởng ban và 03 cán bộ. Nhiệm vụ của Ban là:<br>
-                        + Nghiên cứu nhu cầu của cộng đồng về bảo vệ sức khỏe <br>
-                        + Xây dựng sản phẩm. <br>
-                        + Tổ chức các sự kiện, các kênh truyền thông để giới thiệu sản phẩm <br>
-                        + Giải đáp các câu hỏi và tương tác thường xuyên với các thành viên. <br>
-                        + PTGĐ phụ trách phát triển hệ thống kiêm trưởng ban.
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="true" aria-controls="collapseOne">
-                        Ban Công nghệ thông tin
-                    </button>
-                </div>
-                <div id="collapse3" class="accordion-collapse collapse " data-bs-parent="#accordion">
-                    <div class="accordion-body">
-                        Bao gồm 01 Trưởng ban và 03 cán bộ. Nhiệm vụ của Ban là:<br>
-                        + Xây dựng, nâng cấp và vận hành các app bán hàng, web bán hàng<br>
-                        + Xây dựng, nâng cấp và vận hành phần mềm quản lý.<br>
-                        + Hỗ trợ ban marketing tạo ra các công cụ truyền thông trên không gian mạng.<br>
-                        + Tổ chức lưu trữ, bảo vệ, bảo quản hệ thống dữ liệu.<br>
-                        + PTGĐ phụ trách CNTT kiêm trưởng ban.<br>
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="true" aria-controls="collapseOne">
-                        Ban Điều tra sự kiện và tương trợ thành viên
-                    </button>
-                </div>
-                <div id="collapse4" class="accordion-collapse collapse " data-bs-parent="#accordion">
-                    <div class="accordion-body">
-                        Bao gồm 01 Trưởng ban và 04 cán bộ cơ cấu thành 02 bộ phận thường trú tại Hà Nội và thành phố Hồ Chí Minh. Nhiệm vụ của Ban là: <br>
-                        + Thăm hỏi thành viên không may mắc bệnh hiểm nghèo. Thu thập hồ sơ và điều tra các sự kiện tương trợ để trả lời cho câu hỏi sự kiện đó được hay không được tương trợ và thống nhất với thành viên.<br>
-                        + Cập nhật, vào hệ thống tất cả các sự kiện có đề nghị tương trợ.<br>
-                        + Chủ trì và phối hợp với Ban marketing để tiến hành thực hiện Trợ giúp thành viên.
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapseOne">
-                        Ban Tài chính, kế toán và tổng hợp
-                    </button>
-                </div>
-                <div id="collapse5" class="accordion-collapse collapse " data-bs-parent="#accordion">
-                    <div class="accordion-body">
-                        Bao gồm: 01 Trưởng ban và 02 cán bộ. Nhiệm vụ của Ban là:
-                        + Quản lý, theo dõi Quỹ thành viên đảm bảo an toàn và hiệu quả. <br>
-                        + Quản lý toàn bộ thu chi của Công ty.<br>
-                        + Làm các báo cáo thu chi Quỹ thành viên và định kỳ làm việc với kiểm toán để công khai Quỹ thành viên.<br>
-                        + Đầu mối làm việc với cơ quan thuế và các cơ quan chức năng.<br>
-                        + Hỗ trợ các ban khác để Công ty hoạt động hiệu quả.
-                    </div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <div class="accordion-header">
-                    <button class="accordion-button collapsed text-uppercase" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapseOne">
-                        Hệ thống cộng tác viên
-                    </button>
-                </div>
-                <div id="collapse6" class="accordion-collapse collapse " data-bs-parent="#accordion">
-                    <div class="accordion-body">
-                        + Giám định viên: Mỗi bệnh viện TW và tương đương (Phụ lục đính kèm) có 01 giám định viên. <br>
-                        + Điều tra viên từ các công ty bảo hiểm: Tại Hà Nội và thành phố Hồ Chí Minh sẽ có 05 điều tra viên cho mỗi địa bàn. <br>
-                        + Hội đồng y khoa: Gồm 05 người là các chuyên gia hàng đầu tại các Bệnh viện của Việt Nam .
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
 </div>
