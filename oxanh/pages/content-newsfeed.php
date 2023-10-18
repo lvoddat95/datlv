@@ -2,10 +2,7 @@
     style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog.jpg);">
     <div class="container">
         <div class="ci-breadcrumb-inner">
-            <h1 class="ci-breadcrumb-title">NewsFeeds</h1>
-            <div class="ci-breadcrumb-desc">
-                Thông tin ưu đãi, con người và văn hoá Ô Xanh
-            </div>
+            <h1 class="ci-breadcrumb-title">Bảng Tin Ô Xanh</h1>
         </div>
     </div>
 </div>
