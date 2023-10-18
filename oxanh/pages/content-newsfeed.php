@@ -119,22 +119,22 @@
                                         </div>
                                     </div><!-- add post new box -->
 
-                                    <div class="card">
+                                    <div class="central-meta item">
                                         <!-- post title start -->
                                         <div class="post-title d-flex align-items-center">
                                             <!-- profile picture end -->
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-middle">
-                                                        <img src="assets/images/profile/profile-small-1.jpg" alt="profile picture">
+                                                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/team-2.jpg" alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
                                             <!-- profile picture end -->
 
                                             <div class="posted-author">
-                                                <h6 class="author"><a href="profile.html">merry watson</a></h6>
-                                                <span class="post-time">20 min ago</span>
+                                                <h6 class="author"><a href="">Nguyễn A</a></h6>
+                                                <span class="post-time">20 phút trước</span>
                                             </div>
 
                                             <div class="post-settings-bar">
@@ -159,15 +159,15 @@
                                             </p>
                                             <div class="post-thumb-gallery">
                                                 <figure class="post-thumb img-popup">
-                                                    <a href="assets/images/post/post-1.jpg">
-                                                        <img src="assets/images/post/post-1.jpg" alt="post image">
+                                                    <a href="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog01.jpg">
+                                                        <img src="a<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog01.jpg" alt="post image">
                                                     </a>
                                                 </figure>
                                             </div>
                                             <div class="post-meta">
                                                 <button class="post-meta-like">
                                                     <i class="bi bi-heart-beat"></i>
-                                                    <span>You and 201 people like this</span>
+                                                    <span>Bạn và 201 người khác đã thích</span>
                                                     <strong>201</strong>
                                                 </button>
                                                 <ul class="comment-share-meta">
@@ -187,8 +187,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
-                            <button class="btn-view btn-load-more">Load More</button></div><!-- centerl meta -->
+                            <button class="btn-view btn-load-more">Xem thêm</button></div><!-- centerl meta -->
                             <div class="col-lg-3">
                                 <aside class="sidebar static">
                                     <div class="widget">
