@@ -6710,6 +6710,7 @@ Flaticon icon font: Flaticon
   left: 20px;
   position: absolute;
   width: 20%;
+  background-color: var(--main-color);
 }
 
 .sidebar .widget li {

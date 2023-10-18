@@ -20,13 +20,13 @@
                                             <h4 class="widget-title">Theo dõi ÔXanh</h4>
                                             <ul class="socials">
                                                 <li class="facebook">
-                                                    <a title="" href="#"><i class="fa fa-facebook"></i> <span>facebook</span> <ins>45 likes</ins></a>
+                                                    <a title="" href="#"><i class="fa-brands fa-facebook"></i> <span>facebook</span> <ins>45 likes</ins></a>
                                                 </li>
                                                 <li class="twitter">
-                                                    <a title="" href="#"><i class="fa fa-twitter"></i> <span>twitter</span><ins>25 likes</ins></a>
+                                                    <a title="" href="#"><i class="fa-brands fa-twitter"></i> <span>twitter</span><ins>25 likes</ins></a>
                                                 </li>
                                                 <li class="google">
-                                                    <a title="" href="#"><i class="fa fa-google"></i> <span>google</span><ins>35 likes</ins></a>
+                                                    <a title="" href="#"><i class="fa-brands fa-google-plus-g"></i> <span>google</span><ins>35 likes</ins></a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -47,7 +47,7 @@
                                             </li>
                                             <li>
                                                 <i class="far fa-user-check"></i>
-                                                <a href="timeline-friends.html" title="">Theo dõi</a>
+                                                <a href="" title="">Theo dõi</a>
                                             </li>
                                             <li>
                                                 <i class="far fa-image"></i>
@@ -59,15 +59,15 @@
                                             </li>
                                             <li>
                                                 <i class="far fa-message-smile"></i>
-                                                <a href="messages.html" title="">Tin nhắn</a>
+                                                <a href="" title="">Tin nhắn</a>
                                             </li>
                                             <li>
                                                 <i class="far fa-bell"></i>
-                                                <a href="notifications.html" title="">Thông báo</a>
+                                                <a href="" title="">Thông báo</a>
                                             </li>
                                             <li>
-                                                <i class="ti-power-off"></i>
-                                                <a href="landing.html" title="">Đăng xuất</a>
+                                                <i class="far fa-power-off"></i>
+                                                <a href="" title="">Đăng xuất</a>
                                             </li>
                                         </ul>
                                     </div><!-- Shortcuts -->
