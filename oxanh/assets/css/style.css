@@ -6729,9 +6729,6 @@ Flaticon icon font: Flaticon
   display: inline-block;
   font-size: 11px;
   margin-right: 5px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  vertical-align: middle;
   white-space: nowrap;
 }
 
@@ -6743,6 +6740,10 @@ Flaticon icon font: Flaticon
   font-weight: 400;
   color: #797979;
   vertical-align: top;
+}
+
+.sidebar .widget li>a:hover {
+  color: var(--main-color);
 }
 
 .sidebar .widget li>a i {
@@ -6757,7 +6758,6 @@ Flaticon icon font: Flaticon
 .sidebar .widget ul.naves li i {
   display: inline-block;
   font-size: 16px;
-  vertical-align: baseline;
 }
 
 .sidebar .widget ul.recent-photos li {

@@ -34,39 +34,39 @@
                                         <h4 class="widget-title">Lối tắt</h4>
                                         <ul class="naves">
                                             <li>
-                                                <i class="far fa-clipboard"></i>
+                                                <i class="far fa-fw fa-clipboard"></i>
                                                 <a href="" title="">Bảng Tin</a>
                                             </li>
                                             <li>
-                                                <i class="far fa-inbox"></i>
+                                                <i class="far fa-fw fa-inbox"></i>
                                                 <a href="i" title="">Hộp thư đến</a>
                                             </li>
                                             <li>
-                                                <i class="far fa-user-gear"></i>
+                                                <i class="far fa-fw fa-user-gear"></i>
                                                 <a href="" title="">Quản lý tài khoản</a>
                                             </li>
                                             <li>
-                                                <i class="far fa-user-check"></i>
+                                                <i class="far fa-fw fa-user-check"></i>
                                                 <a href="" title="">Theo dõi</a>
                                             </li>
                                             <li>
-                                                <i class="far fa-image"></i>
+                                                <i class="far fa-fw fa-image"></i>
                                                 <a href="" title="">Ảnh</a>
                                             </li>
                                             <li>
-                                                <i class="far fa-clapperboard-play"></i>
+                                                <i class="far fa-fw fa-clapperboard-play"></i>
                                                 <a href="" title="">Videos</a>
                                             </li>
                                             <li>
-                                                <i class="far fa-message-smile"></i>
+                                                <i class="far fa-fw fa-message-smile"></i>
                                                 <a href="" title="">Tin nhắn</a>
                                             </li>
                                             <li>
-                                                <i class="far fa-bell"></i>
+                                                <i class="far fa-fw fa-bell"></i>
                                                 <a href="" title="">Thông báo</a>
                                             </li>
                                             <li>
-                                                <i class="far fa-power-off"></i>
+                                                <i class="far fa-fw fa-power-off"></i>
                                                 <a href="" title="">Đăng xuất</a>
                                             </li>
                                         </ul>
