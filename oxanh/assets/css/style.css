@@ -6921,7 +6921,7 @@ li.google {
   width: 100%;
 }
 
-.new-postbox > figure {
+.new-postbox>figure {
   display: inline-block;
   margin-bottom: 0;
   vertical-align: top;
@@ -6935,14 +6935,16 @@ li.google {
   width: 85.5%;
 }
 
-.newpst-input > form {
+.newpst-input>form {
   display: inline-block;
   width: 100%;
 }
+
 .newpst-input textarea {
   float: left;
   width: 100%;
 }
+
 .attachments {
   border: 1px solid #eee;
   display: block;
@@ -6952,7 +6954,7 @@ li.google {
   background: #fff;
 }
 
-.attachments > ul {
+.attachments>ul {
   list-style: outside none none;
   margin-bottom: 0;
   padding-left: 0;
@@ -6963,7 +6965,7 @@ li.google {
   margin-left: 5px;
 }
 
-textarea {
+.newpst-input textarea {
   border: 1px solid #eeeeee;
   border-radius: 6px 6px 0 0;
   padding: 10px;
@@ -6971,7 +6973,7 @@ textarea {
   border-bottom: 0;
 }
 
-form button {
+.newpst-input button {
   border: medium none;
   color: #fff;
   font-size: 13px;
@@ -6992,7 +6994,7 @@ form button {
   width: 100%;
 }
 
-.friend-info > figure {
+.friend-info>figure {
   display: inline-block;
   margin-bottom: 0;
   vertical-align: middle;
@@ -7006,7 +7008,7 @@ form button {
   width: 90%;
 }
 
-.friend-name > ins {
+.friend-name>ins {
   float: left;
   font-weight: 500;
   width: 100%;
@@ -7014,7 +7016,7 @@ form button {
   text-decoration: none;
 }
 
-.friend-name > span {
+.friend-name>span {
   color: #999;
   float: left;
   font-size: 12px;
@@ -7028,7 +7030,7 @@ form button {
   width: 100%;
 }
 
-.post-meta > img {
+.post-meta>img {
   float: left;
   width: 100%;
 }
@@ -7039,15 +7041,37 @@ form button {
   width: 100%;
 }
 
-.description > p {
+.description>p {
   margin-bottom: 20px;
 }
 
-.description > span {
+.description>span {
   color: #424242;
   font-size: 18px;
   font-weight: 500;
   line-height: 28px;
   display: inline-block;
   margin-bottom: 5px;
+}
+
+
+.fileContainer {
+  color: #d8d8d8;
+  font-size: 11px;
+  margin: 0 0 0 5px;
+  position: relative;
+  text-transform: capitalize;
+}
+
+.fileContainer [type=file] {
+  cursor: pointer;
+  display: block;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  position: absolute;
+  right: 0px;
+  text-align: right;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
 }

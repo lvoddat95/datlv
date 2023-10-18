@@ -110,7 +110,7 @@
                                                                 </label>
                                                             </li>
                                                             <li>
-                                                                <button type="submit" class="btn btn-main">Đăng bài</button>
+                                                                <button type="submit" class="ci-btn-main">Đăng bài</button>
                                                             </li>
                                                         </ul>
                                                     </div>
