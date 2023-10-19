@@ -6928,6 +6928,10 @@ li.google {
   width: 10.4%;
 }
 
+.new-postbox>figure> img{
+  border-radius: 100% ;
+}
+
 .newpst-input {
   display: inline-block;
   margin-left: 10px;
@@ -7074,4 +7078,10 @@ li.google {
   top: 0;
   width: 100%;
   overflow: hidden;
+}
+
+.friend-info {
+  display: inline-block;
+  position: relative;
+  width: 100%;
 }
