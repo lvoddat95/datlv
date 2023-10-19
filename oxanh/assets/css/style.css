@@ -6666,7 +6666,7 @@ Flaticon icon font: Flaticon
   margin: 0 auto;
   padding-bottom: 20px;
   width: 100%;
-  position: sticky;
+  position: sticky !important;
   top: 5px;
 }
 
