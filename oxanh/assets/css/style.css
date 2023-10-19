@@ -7108,12 +7108,17 @@ li.google {
   width: 90%;
 }
 
-.posted-author .author {
+.author {
   float: left;
   font-weight: 500;
   width: 100%;
-  font-size: 14.5px;
+  font-size: 14px;
   text-decoration: none;
+  color: var(--main-color);
+}
+
+.author a {
+  color: var(--main-color);
 }
 
 .posted-author .post-time {
@@ -7271,13 +7276,13 @@ li.google {
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .profile-menu-area {
-      margin-bottom: 50px;
+    margin-bottom: 50px;
   }
 }
 
 @media only screen and (max-width: 767.98px) {
   .profile-menu-area {
-      padding: 15px;
+    padding: 15px;
   }
 }
 
@@ -7448,12 +7453,12 @@ li.google {
 
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .profile-banner-large {
-      height: 270px;
+    height: 270px;
   }
 }
 
 @media only screen and (max-width: 767.98px) {
   .profile-banner-large {
-      height: 190px;
+    height: 190px;
   }
 }

@@ -80,6 +80,7 @@
 
                         <div class="col-lg-6">
                             <div class="loadMore">
+
                                 <div class="central-meta new-pst item" style="display: inline-block;">
                                     <div class="new-postbox">
                                         <figure>
@@ -180,8 +181,120 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button class="btn-view btn-load-more">Xem thêm</button>
 
+                                <div class="central-meta item">
+
+                                    <div class="user-post-title">
+                                        <figure class="profile-thumb">
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/team-4.jpg"
+                                                alt="profile picture">
+                                        </figure>
+
+                                        <div class="posted-author">
+                                            <h6 class="author"><a href="">Nguyễn B</a></h6>
+                                            <span class="post-time">20 phút trước</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="user-post-content">
+                                        <p class="user-post-desc">
+                                            Ô Xanh là công ty tiên phong trong lĩnh vực phát triển sức khỏe cộng đồng và
+                                            là điểm tựa vững chắc cho bệnh nhân không may mắc bệnh hiểm nghèo.
+                                        </p>
+                                        <div class="user-post-thumb-gallery">
+                                            <figure class="user-post-thumb img-popup">
+                                                <a
+                                                    href="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog02.jpg">
+                                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog02.jpg"
+                                                        alt="post image">
+                                                </a>
+                                            </figure>
+                                        </div>
+                                        <div class="user-post-meta">
+
+                                            <button class="user-post-meta-button user-post-meta-like">
+                                                <i class="far fa-heart"></i>
+                                                <span>Bạn và 201 người khác đã thích</span>
+                                                <strong>201</strong>
+                                            </button>
+
+                                            <ul class="comment-share-meta">
+                                                <li>
+                                                    <button class="user-post-meta-button user-post-comment">
+                                                        <i class="far fa-message-lines"></i>
+                                                        <span>41</span>
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button class="user-post-meta-button user-post-share">
+                                                        <i class="far fa-share-nodes"></i>
+                                                        <span>07</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="central-meta item">
+
+                                    <div class="user-post-title">
+                                        <figure class="profile-thumb">
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/team-3.jpg"
+                                                alt="profile picture">
+                                        </figure>
+
+                                        <div class="posted-author">
+                                            <h6 class="author"><a href="">Nguyễn C</a></h6>
+                                            <span class="post-time">1 tiếng trước</span>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="user-post-content">
+                                        <p class="user-post-desc">
+                                            Ô Xanh là công ty tiên phong trong lĩnh vực phát triển sức khỏe cộng đồng và
+                                            là điểm tựa vững chắc cho bệnh nhân không may mắc bệnh hiểm nghèo.
+                                        </p>
+                                        <div class="user-post-thumb-gallery">
+                                            <figure class="user-post-thumb img-popup">
+                                                <a
+                                                    href="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog03.jpg">
+                                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog03.jpg"
+                                                        alt="post image">
+                                                </a>
+                                            </figure>
+                                        </div>
+                                        <div class="user-post-meta">
+
+                                            <button class="user-post-meta-button user-post-meta-like">
+                                                <i class="far fa-heart"></i>
+                                                <span>Bạn và 201 người khác đã thích</span>
+                                                <strong>201</strong>
+                                            </button>
+
+                                            <ul class="comment-share-meta">
+                                                <li>
+                                                    <button class="user-post-meta-button user-post-comment">
+                                                        <i class="far fa-message-lines"></i>
+                                                        <span>41</span>
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button class="user-post-meta-button user-post-share">
+                                                        <i class="far fa-share-nodes"></i>
+                                                        <span>07</span>
+                                                    </button>
+                                                </li>
+                                            </ul>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button class="btn-view btn-load-more">Xem thêm</button>
                             </div>
 
 
@@ -194,7 +307,7 @@
                                     <div class="profile-banner">
                                         <figure class="profile-banner-small">
                                             <a href="">
-                                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog.jpg"
+                                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/video-banner.png
                                                     alt="">
                                             </a>
                                             <a href="" class="profile-thumb-2">
