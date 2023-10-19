@@ -6928,8 +6928,10 @@ li.google {
   width: 10.4%;
 }
 
-.new-postbox>figure> img{
-  border-radius: 100% ;
+.new-postbox>figure>img {
+  border-radius: 100%;
+  height: 53px !important;
+  width: 53px !important;
 }
 
 .newpst-input {
@@ -7080,8 +7082,44 @@ li.google {
   overflow: hidden;
 }
 
-.friend-info {
+.profile-thumb {
   display: inline-block;
   position: relative;
+  width: 100%;
+}
+
+.profile-thumb>figure {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  width: 8%;
+}
+
+.profile-thumb>figure>img {
+  border-radius: 100%;
+  width: 43px !important;
+  height: 43px !important;
+}
+
+.posted-author {
+  display: inline-block;
+  padding-left: 10px;
+  vertical-align: middle;
+  width: 90%;
+}
+
+.posted-author .author {
+  float: left;
+  font-weight: 500;
+  width: 100%;
+  font-size: 14.5px;
+  text-decoration: none;
+}
+
+.posted-author .post-time {
+  color: #999;
+  float: left;
+  font-size: 12px;
+  text-transform: capitalize;
   width: 100%;
 }
