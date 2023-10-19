@@ -6660,15 +6660,17 @@ Flaticon icon font: Flaticon
 }
 
 /*-- widgets ---*/
-.sidebar {
+#page-contents .sidebar {
   display: table;
   float: none;
   margin: 0 auto;
   padding-bottom: 20px;
   width: 100%;
+  position: sticky;
+  top: 5px;
 }
 
-.sidebar .widget {
+#page-contents .sidebar .widget {
   display: inline-block;
   position: relative;
   width: 100%;
