@@ -127,20 +127,16 @@
                                 <div class="central-meta item">
 
                                     <div class="user-post-title">
-                                        <div class="profile-thumb">
-                                            <a href="#">
-                                                <figure class="profile-thumb-middle">
-                                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/team-2.jpg"
-                                                        alt="profile picture">
-                                                </figure>
-                                            </a>
-                                        </div>
+                                        <figure class="profile-thumb">
+                                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/team-2.jpg"
+                                                alt="profile picture">
+                                        </figure>
 
                                         <div class="posted-author">
                                             <h6 class="author"><a href="">Nguyễn A</a></h6>
                                             <span class="post-time">20 phút trước</span>
                                         </div>
-                                      
+
                                     </div>
 
                                     <div class="user-post-content">

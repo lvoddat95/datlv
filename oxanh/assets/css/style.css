@@ -7082,20 +7082,25 @@ li.google {
   overflow: hidden;
 }
 
-.profile-thumb {
+.user-post-title {
   display: inline-block;
   position: relative;
   width: 100%;
 }
 
-.profile-thumb>figure {
+.profile-thumb {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile-thumb figure {
   display: inline-block;
   margin-bottom: 0;
   vertical-align: middle;
   width: 8%;
 }
 
-.profile-thumb>figure>img {
+.profile-thumb figure>img {
   border-radius: 100%;
   width: 43px !important;
   height: 43px !important;
