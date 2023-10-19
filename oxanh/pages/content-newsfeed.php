@@ -307,7 +307,7 @@
                                     <div class="profile-banner">
                                         <figure class="profile-banner-small">
                                             <a href="">
-                                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/video-banner.png
+                                                <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/video-banner.png"
                                                     alt="">
                                             </a>
                                             <a href="" class="profile-thumb-2">
