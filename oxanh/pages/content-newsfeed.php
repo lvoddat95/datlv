@@ -14,6 +14,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="row merged20" id="page-contents">
+
                         <div class="col-lg-3">
                             <aside class="sidebar static">
                                 <div class="widget">
@@ -75,7 +76,7 @@
                                     </ul>
                                 </div><!-- Shortcuts -->
                             </aside>
-                        </div><!-- sidebar -->
+                        </div>
 
                         <div class="col-lg-6">
                             <div class="loadMore">
@@ -141,11 +142,8 @@
 
                                     <div class="user-post-content">
                                         <p class="user-post-desc">
-                                            Many desktop publishing packages and web page editors now use Lorem Ipsum as
-                                            their
-                                            default model text, and a search for 'lorem ipsum' will uncover many web
-                                            sites still
-                                            in their infancy.
+                                            Ô Xanh là công ty tiên phong trong lĩnh vực phát triển sức khỏe cộng đồng và
+                                            là điểm tựa vững chắc cho bệnh nhân không may mắc bệnh hiểm nghèo.
                                         </p>
                                         <div class="user-post-thumb-gallery">
                                             <figure class="user-post-thumb img-popup">
@@ -187,235 +185,236 @@
                             </div>
 
 
-                            <div class="col-lg-3">
-                                <aside class="sidebar static">
-                                    <div class="widget">
-                                        <div class="banner medium-opacity bluesh">
-                                            <div style="background-image: url(images/resources/baner-widgetbg.jpg)"
-                                                class="bg-image"></div>
-                                            <div class="baner-top">
-                                                <span><img src="images/book-icon.png" alt=""></span>
-                                                <i class="fa fa-ellipsis-h"></i>
-                                            </div>
-                                            <div class="banermeta">
-                                                <p>
-                                                    create your own favourit page.
-                                                </p>
-                                                <span>like them all</span>
-                                                <a href="#" title="" data-ripple="">start now!</a>
-                                            </div>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <aside class="sidebar static">
+                                <div class="widget">
+                                    <div class="banner medium-opacity bluesh">
+                                        <div style="background-image: url(images/resources/baner-widgetbg.jpg)"
+                                            class="bg-image"></div>
+                                        <div class="baner-top">
+                                            <span><img src="images/book-icon.png" alt=""></span>
+                                            <i class="fa fa-ellipsis-h"></i>
+                                        </div>
+                                        <div class="banermeta">
+                                            <p>
+                                                create your own favourit page.
+                                            </p>
+                                            <span>like them all</span>
+                                            <a href="#" title="" data-ripple="">start now!</a>
                                         </div>
                                     </div>
-                                    <div class="widget friend-list stick-widget">
-                                        <h4 class="widget-title">Friends</h4>
-                                        <div id="searchDir">
-                                            <form class="filterform" action="#"><input class="filterinput" type="text"
-                                                    placeholder="Search Contacts..."></form>
-                                        </div>
-                                        <ul id="people-list"
-                                            class="friendz-list ps-container ps-theme-default ps-active-y"
-                                            data-ps-id="e58ba484-3c83-e847-3471-80e2b01b49d9">
-                                            <li>
-                                                <figure>
-                                                    <img src="images/resources/friend-avatar.jpg" alt="">
-                                                    <span class="status f-online"></span>
-                                                </figure>
-                                                <div class="friendz-meta">
-                                                    <a href="time-line.html">bucky barnes</a>
-                                                    <i>wintersolder@gmail.com</i>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <figure>
-                                                    <img src="images/resources/friend-avatar2.jpg" alt="">
-                                                    <span class="status f-away"></span>
-                                                </figure>
-                                                <div class="friendz-meta">
-                                                    <a href="time-line.html">Sarah Loren</a>
-                                                    <i>barnes@gmail.com</i>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <figure>
-                                                    <img src="images/resources/friend-avatar3.jpg" alt="">
-                                                    <span class="status f-off"></span>
-                                                </figure>
-                                                <div class="friendz-meta">
-                                                    <a href="time-line.html">jason borne</a>
-                                                    <i>jasonb@gmail.com</i>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <figure>
-                                                    <img src="images/resources/friend-avatar4.jpg" alt="">
-                                                    <span class="status f-off"></span>
-                                                </figure>
-                                                <div class="friendz-meta">
-                                                    <a href="time-line.html">Cameron diaz</a>
-                                                    <i>jasonb@gmail.com</i>
-                                                </div>
-                                            </li>
-                                            <li>
-
-                                                <figure>
-                                                    <img src="images/resources/friend-avatar5.jpg" alt="">
-                                                    <span class="status f-online"></span>
-                                                </figure>
-                                                <div class="friendz-meta">
-                                                    <a href="time-line.html">daniel warber</a>
-                                                    <i>jasonb@gmail.com</i>
-                                                </div>
-                                            </li>
-                                            <li>
-
-                                                <figure>
-                                                    <img src="images/resources/friend-avatar6.jpg" alt="">
-                                                    <span class="status f-away"></span>
-                                                </figure>
-                                                <div class="friendz-meta">
-                                                    <a href="time-line.html">andrew</a>
-                                                    <i>jasonb@gmail.com</i>
-                                                </div>
-                                            </li>
-                                            <li>
-
-                                                <figure>
-                                                    <img src="images/resources/friend-avatar7.jpg" alt="">
-                                                    <span class="status f-off"></span>
-                                                </figure>
-                                                <div class="friendz-meta">
-                                                    <a href="time-line.html">amy watson</a>
-                                                    <i>jasonb@gmail.com</i>
-                                                </div>
-                                            </li>
-                                            <li>
-
-                                                <figure>
-                                                    <img src="images/resources/friend-avatar5.jpg" alt="">
-                                                    <span class="status f-online"></span>
-                                                </figure>
-                                                <div class="friendz-meta">
-                                                    <a href="time-line.html">daniel warber</a>
-                                                    <i>jasonb@gmail.com</i>
-                                                </div>
-                                            </li>
-                                            <li>
-
-                                                <figure>
-                                                    <img src="images/resources/friend-avatar2.jpg" alt="">
-                                                    <span class="status f-away"></span>
-                                                </figure>
-                                                <div class="friendz-meta">
-                                                    <a href="time-line.html">Sarah Loren</a>
-                                                    <i>barnes@gmail.com</i>
-                                                </div>
-                                            </li>
-                                            <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
-                                                <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;">
-                                                </div>
-                                            </div>
-                                            <div class="ps-scrollbar-y-rail"
-                                                style="top: 0px; height: 450px; right: 0px;">
-                                                <div class="ps-scrollbar-y" tabindex="0"
-                                                    style="top: 0px; height: 384px;"></div>
-                                            </div>
-                                        </ul>
-                                        <div class="chat-box">
-                                            <div class="chat-head">
+                                </div>
+                                <div class="widget friend-list stick-widget">
+                                    <h4 class="widget-title">Friends</h4>
+                                    <div id="searchDir">
+                                        <form class="filterform" action="#"><input class="filterinput" type="text"
+                                                placeholder="Search Contacts..."></form>
+                                    </div>
+                                    <ul id="people-list" class="friendz-list ps-container ps-theme-default ps-active-y"
+                                        data-ps-id="e58ba484-3c83-e847-3471-80e2b01b49d9">
+                                        <li>
+                                            <figure>
+                                                <img src="images/resources/friend-avatar.jpg" alt="">
                                                 <span class="status f-online"></span>
-                                                <h6>Bucky Barnes</h6>
-                                                <div class="more">
-                                                    <span><i class="ti-more-alt"></i></span>
-                                                    <span class="close-mesage"><i class="ti-close"></i></span>
-                                                </div>
+                                            </figure>
+                                            <div class="friendz-meta">
+                                                <a href="time-line.html">bucky barnes</a>
+                                                <i>wintersolder@gmail.com</i>
                                             </div>
-                                            <div class="chat-list">
-                                                <ul class="ps-container ps-theme-default ps-active-y"
-                                                    data-ps-id="17cdcf40-101f-23de-b6f3-7f9537f72c6b">
-                                                    <li class="me">
-                                                        <div class="chat-thumb"><img
-                                                                src="images/resources/chatlist1.jpg" alt=""></div>
-                                                        <div class="notification-event">
-                                                            <span class="chat-message-item">
-                                                                Hi James! Please remember to buy the food for tomorrow!
-                                                                I’m gonna be handling the gifts and Jake’s gonna get the
-                                                                drinks
-                                                            </span>
-                                                            <span class="notification-date"><time
-                                                                    datetime="2004-07-24T18:18"
-                                                                    class="entry-date updated">Yesterday at
-                                                                    8:10pm</time></span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="you">
-                                                        <div class="chat-thumb"><img
-                                                                src="images/resources/chatlist2.jpg" alt=""></div>
-                                                        <div class="notification-event">
-                                                            <span class="chat-message-item">
-                                                                Hi James! Please remember to buy the food for tomorrow!
-                                                                I’m gonna be handling the gifts and Jake’s gonna get the
-                                                                drinks
-                                                            </span>
-                                                            <span class="notification-date"><time
-                                                                    datetime="2004-07-24T18:18"
-                                                                    class="entry-date updated">Yesterday at
-                                                                    8:10pm</time></span>
-                                                        </div>
-                                                    </li>
-                                                    <li class="me">
-                                                        <div class="chat-thumb"><img
-                                                                src="images/resources/chatlist1.jpg" alt=""></div>
-                                                        <div class="notification-event">
-                                                            <span class="chat-message-item">
-                                                                Hi James! Please remember to buy the food for tomorrow!
-                                                                I’m gonna be handling the gifts and Jake’s gonna get the
-                                                                drinks
-                                                            </span>
-                                                            <span class="notification-date"><time
-                                                                    datetime="2004-07-24T18:18"
-                                                                    class="entry-date updated">Yesterday at
-                                                                    8:10pm</time></span>
-                                                        </div>
-                                                    </li>
-                                                    <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
-                                                        <div class="ps-scrollbar-x" tabindex="0"
-                                                            style="left: 0px; width: 0px;"></div>
-                                                    </div>
-                                                    <div class="ps-scrollbar-y-rail"
-                                                        style="top: 0px; height: 290px; right: 0px;">
-                                                        <div class="ps-scrollbar-y" tabindex="0"
-                                                            style="top: 0px; height: 188px;"></div>
-                                                    </div>
-                                                </ul>
-                                                <form class="text-box">
-                                                    <textarea placeholder="Post enter to post..."></textarea>
-                                                    <div class="add-smiles">
-                                                        <span title="add icon" class="em em-expressionless"></span>
-                                                    </div>
-                                                    <div class="smiles-bunch">
-                                                        <i class="em em---1"></i>
-                                                        <i class="em em-smiley"></i>
-                                                        <i class="em em-anguished"></i>
-                                                        <i class="em em-laughing"></i>
-                                                        <i class="em em-angry"></i>
-                                                        <i class="em em-astonished"></i>
-                                                        <i class="em em-blush"></i>
-                                                        <i class="em em-disappointed"></i>
-                                                        <i class="em em-worried"></i>
-                                                        <i class="em em-kissing_heart"></i>
-                                                        <i class="em em-rage"></i>
-                                                        <i class="em em-stuck_out_tongue"></i>
-                                                    </div>
-                                                    <button type="submit"></button>
-                                                </form>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <img src="images/resources/friend-avatar2.jpg" alt="">
+                                                <span class="status f-away"></span>
+                                            </figure>
+                                            <div class="friendz-meta">
+                                                <a href="time-line.html">Sarah Loren</a>
+                                                <i>barnes@gmail.com</i>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <img src="images/resources/friend-avatar3.jpg" alt="">
+                                                <span class="status f-off"></span>
+                                            </figure>
+                                            <div class="friendz-meta">
+                                                <a href="time-line.html">jason borne</a>
+                                                <i>jasonb@gmail.com</i>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <figure>
+                                                <img src="images/resources/friend-avatar4.jpg" alt="">
+                                                <span class="status f-off"></span>
+                                            </figure>
+                                            <div class="friendz-meta">
+                                                <a href="time-line.html">Cameron diaz</a>
+                                                <i>jasonb@gmail.com</i>
+                                            </div>
+                                        </li>
+                                        <li>
+
+                                            <figure>
+                                                <img src="images/resources/friend-avatar5.jpg" alt="">
+                                                <span class="status f-online"></span>
+                                            </figure>
+                                            <div class="friendz-meta">
+                                                <a href="time-line.html">daniel warber</a>
+                                                <i>jasonb@gmail.com</i>
+                                            </div>
+                                        </li>
+                                        <li>
+
+                                            <figure>
+                                                <img src="images/resources/friend-avatar6.jpg" alt="">
+                                                <span class="status f-away"></span>
+                                            </figure>
+                                            <div class="friendz-meta">
+                                                <a href="time-line.html">andrew</a>
+                                                <i>jasonb@gmail.com</i>
+                                            </div>
+                                        </li>
+                                        <li>
+
+                                            <figure>
+                                                <img src="images/resources/friend-avatar7.jpg" alt="">
+                                                <span class="status f-off"></span>
+                                            </figure>
+                                            <div class="friendz-meta">
+                                                <a href="time-line.html">amy watson</a>
+                                                <i>jasonb@gmail.com</i>
+                                            </div>
+                                        </li>
+                                        <li>
+
+                                            <figure>
+                                                <img src="images/resources/friend-avatar5.jpg" alt="">
+                                                <span class="status f-online"></span>
+                                            </figure>
+                                            <div class="friendz-meta">
+                                                <a href="time-line.html">daniel warber</a>
+                                                <i>jasonb@gmail.com</i>
+                                            </div>
+                                        </li>
+                                        <li>
+
+                                            <figure>
+                                                <img src="images/resources/friend-avatar2.jpg" alt="">
+                                                <span class="status f-away"></span>
+                                            </figure>
+                                            <div class="friendz-meta">
+                                                <a href="time-line.html">Sarah Loren</a>
+                                                <i>barnes@gmail.com</i>
+                                            </div>
+                                        </li>
+                                        <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                                            <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;">
                                             </div>
                                         </div>
-                                    </div><!-- friends list sidebar -->
-                                </aside>
-                            </div><!-- sidebar -->
+                                        <div class="ps-scrollbar-y-rail" style="top: 0px; height: 450px; right: 0px;">
+                                            <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 384px;">
+                                            </div>
+                                        </div>
+                                    </ul>
+                                    <div class="chat-box">
+                                        <div class="chat-head">
+                                            <span class="status f-online"></span>
+                                            <h6>Bucky Barnes</h6>
+                                            <div class="more">
+                                                <span><i class="ti-more-alt"></i></span>
+                                                <span class="close-mesage"><i class="ti-close"></i></span>
+                                            </div>
+                                        </div>
+                                        <div class="chat-list">
+                                            <ul class="ps-container ps-theme-default ps-active-y"
+                                                data-ps-id="17cdcf40-101f-23de-b6f3-7f9537f72c6b">
+                                                <li class="me">
+                                                    <div class="chat-thumb"><img src="images/resources/chatlist1.jpg"
+                                                            alt=""></div>
+                                                    <div class="notification-event">
+                                                        <span class="chat-message-item">
+                                                            Hi James! Please remember to buy the food for tomorrow!
+                                                            I’m gonna be handling the gifts and Jake’s gonna get the
+                                                            drinks
+                                                        </span>
+                                                        <span class="notification-date"><time
+                                                                datetime="2004-07-24T18:18"
+                                                                class="entry-date updated">Yesterday at
+                                                                8:10pm</time></span>
+                                                    </div>
+                                                </li>
+                                                <li class="you">
+                                                    <div class="chat-thumb"><img src="images/resources/chatlist2.jpg"
+                                                            alt=""></div>
+                                                    <div class="notification-event">
+                                                        <span class="chat-message-item">
+                                                            Hi James! Please remember to buy the food for tomorrow!
+                                                            I’m gonna be handling the gifts and Jake’s gonna get the
+                                                            drinks
+                                                        </span>
+                                                        <span class="notification-date"><time
+                                                                datetime="2004-07-24T18:18"
+                                                                class="entry-date updated">Yesterday at
+                                                                8:10pm</time></span>
+                                                    </div>
+                                                </li>
+                                                <li class="me">
+                                                    <div class="chat-thumb"><img src="images/resources/chatlist1.jpg"
+                                                            alt=""></div>
+                                                    <div class="notification-event">
+                                                        <span class="chat-message-item">
+                                                            Hi James! Please remember to buy the food for tomorrow!
+                                                            I’m gonna be handling the gifts and Jake’s gonna get the
+                                                            drinks
+                                                        </span>
+                                                        <span class="notification-date"><time
+                                                                datetime="2004-07-24T18:18"
+                                                                class="entry-date updated">Yesterday at
+                                                                8:10pm</time></span>
+                                                    </div>
+                                                </li>
+                                                <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                                                    <div class="ps-scrollbar-x" tabindex="0"
+                                                        style="left: 0px; width: 0px;"></div>
+                                                </div>
+                                                <div class="ps-scrollbar-y-rail"
+                                                    style="top: 0px; height: 290px; right: 0px;">
+                                                    <div class="ps-scrollbar-y" tabindex="0"
+                                                        style="top: 0px; height: 188px;"></div>
+                                                </div>
+                                            </ul>
+                                            <form class="text-box">
+                                                <textarea placeholder="Post enter to post..."></textarea>
+                                                <div class="add-smiles">
+                                                    <span title="add icon" class="em em-expressionless"></span>
+                                                </div>
+                                                <div class="smiles-bunch">
+                                                    <i class="em em---1"></i>
+                                                    <i class="em em-smiley"></i>
+                                                    <i class="em em-anguished"></i>
+                                                    <i class="em em-laughing"></i>
+                                                    <i class="em em-angry"></i>
+                                                    <i class="em em-astonished"></i>
+                                                    <i class="em em-blush"></i>
+                                                    <i class="em em-disappointed"></i>
+                                                    <i class="em em-worried"></i>
+                                                    <i class="em em-kissing_heart"></i>
+                                                    <i class="em em-rage"></i>
+                                                    <i class="em em-stuck_out_tongue"></i>
+                                                </div>
+                                                <button type="submit"></button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div><!-- friends list sidebar -->
+                            </aside>
                         </div>
+
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 </section>
