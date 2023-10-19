@@ -7088,19 +7088,14 @@ li.google {
   width: 100%;
 }
 
-.profile-thumb {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.profile-thumb figure {
+.profile-thumb{
   display: inline-block;
   margin-bottom: 0;
   vertical-align: middle;
   width: 8%;
 }
 
-.profile-thumb figure>img {
+.profile-thumb img {
   border-radius: 100%;
   width: 43px !important;
   height: 43px !important;
@@ -7127,4 +7122,107 @@ li.google {
   font-size: 12px;
   text-transform: capitalize;
   width: 100%;
+}
+
+.user-post-content {
+  float: left;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.user-post-desc{
+  font-size: 14px;
+  line-height: 26px;
+  color: #8c8b8b;
+}
+
+.user-post-thumb{
+  float: left;
+  width: 100%;
+}
+
+.user-post-meta-button{
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.user-post-meta {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 12px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 479.98px) {
+  .user-post-meta .user-post-meta-like span {
+      display: none;
+  }
+}
+
+.user-post-meta .user-post-meta-like strong {
+  display: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 8px;
+  color: #666666;
+}
+
+@media only screen and (max-width: 479.98px) {
+  .user-post-meta .user-post-meta-like strong {
+      display: inline-block;
+  }
+}
+
+.user-post-meta .comment-share-meta {
+  margin-left: auto;
+}
+
+.user-post-meta .comment-share-meta li {
+  display: inline-block;
+  margin-left: 24px;
+}
+
+.user-post-meta .comment-share-meta li:first-child {
+  margin-left: 0;
+}
+
+.user-post-meta-like i,
+.user-post-comment i,
+.user-post-share i {
+  font-size: 20px;
+  color: #333333;
+  vertical-align: middle;
+}
+
+.user-post-meta-like span,
+.user-post-comment span,
+.user-post-share span {
+  color: #666666;
+  vertical-align: text-bottom;
+  padding-left: 8px;
+}
+
+.user-post-meta-like:hover i,
+.user-post-meta-like:hover span,
+.user-post-comment:hover i,
+.user-post-comment:hover span,
+.user-post-share:hover i,
+.user-post-share:hover span {
+  color: #dc4734;
+}
+
+.plyr--video {
+  border-radius: 5px;
+}
+
+.plyr__control--overlaid {
+  opacity: 0;
+  visibility: hidden;
 }

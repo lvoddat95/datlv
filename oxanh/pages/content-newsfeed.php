@@ -151,31 +151,34 @@
                                             <figure class="user-post-thumb img-popup">
                                                 <a
                                                     href="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog01.jpg">
-                                                    <img src="a<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog01.jpg"
+                                                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/oxanh/assets/img/blog01.jpg"
                                                         alt="post image">
                                                 </a>
                                             </figure>
                                         </div>
                                         <div class="user-post-meta">
-                                            <button class="user-post-meta-like">
-                                                <i class="bi bi-heart-beat"></i>
+
+                                            <button class="user-post-meta-button user-post-meta-like">
+                                                <i class="far fa-heart"></i>
                                                 <span>Bạn và 201 người khác đã thích</span>
                                                 <strong>201</strong>
                                             </button>
+
                                             <ul class="comment-share-meta">
                                                 <li>
-                                                    <button class="user-post-comment">
-                                                        <i class="bi bi-chat-bubble"></i>
+                                                    <button class="user-post-meta-button user-post-comment">
+                                                        <i class="far fa-message-lines"></i>
                                                         <span>41</span>
                                                     </button>
                                                 </li>
                                                 <li>
-                                                    <button class="user-post-share">
-                                                        <i class="bi bi-share"></i>
+                                                    <button class="user-post-meta-button user-post-share">
+                                                        <i class="far fa-share-nodes"></i>
                                                         <span>07</span>
                                                     </button>
                                                 </li>
                                             </ul>
+
                                         </div>
                                     </div>
                                 </div>
