@@ -32,7 +32,7 @@ $(function () {
 	if ($(".ci-package-slider").length > 0) {
 
 		var swiper_package_slider = new Swiper(".ci-package-slider", {
-			slidesPerView: 3,
+			slidesPerView: 1,
 			spaceBetween: 12,
 			// loop: true,
 			// pagination: {

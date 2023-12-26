@@ -147,27 +147,27 @@
                 <tbody>
                     <tr>
                         <td>Từ 1 - 18 (1 tính từ 30 ngày)</td>
-                        <td>500.000</td>
+                        <td>99.000</td>
                     </tr>
                     <tr>
                         <td>Từ 19 - 29</td>
-                        <td>1.000.000</td>
+                        <td>199.000</td>
                     </tr>
                     <tr>
                         <td>Từ 30 - 39</td>
-                        <td>1.500.000</td>
+                        <td>299.000</td>
                     </tr>
                     <tr>
                         <td>Từ 40 - 49</td>
-                        <td>2.000.000</td>
+                        <td>399.000</td>
                     </tr>
                     <tr>
                         <td>Từ 50 - 59</td>
-                        <td>2.500.000</td>
+                        <td>499.000</td>
                     </tr>
                     <tr>
                         <td>Từ 60 - 65 (chỉ dành cho người đã là thành viên)</td>
-                        <td>3.000.000</td>
+                        <td>599.000</td>
                     </tr>
                 </tbody>
             </table>

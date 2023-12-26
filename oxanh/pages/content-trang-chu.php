@@ -84,7 +84,7 @@
                                     <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
                                 </div>
                                 <div class="ci-package-item__more">
-                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh/lua-chon-ke-hoach-tham-gia/ke-hoach-tuong-tro-g1/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
+                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh/ke-hoach-tuong-tro-g0/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
                                 </div>
                             </div>
                             <div class="ci-package-item swiper-slide">
@@ -132,7 +132,7 @@
                                     <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
                                 </div>
                                 <div class="ci-package-item__more">
-                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh/lua-chon-ke-hoach-tham-gia/ke-hoach-tuong-tro-g1/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
+                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh/ke-hoach-tuong-tro-g1/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
                                 </div>
                             </div>
 
@@ -181,7 +181,7 @@
                                     <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
                                 </div>
                                 <div class="ci-package-item__more">
-                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh/lua-chon-ke-hoach-tham-gia/ke-hoach-tuong-tro-g2/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
+                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh//ke-hoach-tuong-tro-g2/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
                                 </div>
                             </div>
 
@@ -229,7 +229,7 @@
 
                                 </div>
                                 <div class="ci-package-item__more">
-                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh/lua-chon-ke-hoach-tham-gia/ke-hoach-tuong-tro-g3/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
+                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh/ke-hoach-tuong-tro-g3/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
                                 </div>
 
                             </div>

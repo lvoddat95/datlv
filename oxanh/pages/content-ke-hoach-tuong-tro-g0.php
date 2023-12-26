@@ -147,7 +147,7 @@
                 <tbody>
                     <tr>
                         <td>Từ 1 - 18 (1 tính từ 30 ngày)</td>
-                        <td>500.000</td>
+                        <td>10.000</td>
                     </tr>
                     <tr>
                         <td>Từ 19 - 29</td>
