@@ -41,6 +41,54 @@
                         <div class="swiper-wrapper">
                             <div class="ci-package-item swiper-slide">
                                 <div class="ci-package-item__top">
+                                    <span>Kế hoạch G0</span>
+                                    <h3>Quyền lợi tương trợ tối đa 20.000.000<small>₫</small></h3>
+                                </div>
+                                <div class="ci-package-item__mid">
+                                    <table class="table table-style style2 mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th width="40%">Độ tuổi (tuổi)</th>
+                                                <th class="text-end">Phí tham gia/năm (₫)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
+                                                <td align="right">10.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 19 - 29</td>
+                                                <td align="right">10.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 30 - 39</td>
+                                                <td align="right">10.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 40 - 49</td>
+                                                <td align="right">10.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 50 - 59</td>
+                                                <td align="right">10.000</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
+                                                <td align="right">Chưa triển khai</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="ci-package-item__bottom">
+                                    <a href="javascript:void(0);" onclick="fancybox_modal('#toi-dong-y');" class="ci-btn ci-btn-outline border-2 main-color">Tham gia trực tuyến</a>
+                                </div>
+                                <div class="ci-package-item__more">
+                                    <a class="more" href="<?php echo esc_url(home_url('/oxanh/lua-chon-ke-hoach-tham-gia/ke-hoach-tuong-tro-g1/')); ?>" class="fw-medium">Chi tiết kế hoạch</a>
+                                </div>
+                            </div>
+                            <div class="ci-package-item swiper-slide">
+                                <div class="ci-package-item__top">
                                     <span>Kế hoạch G1</span>
                                     <h3>Quyền lợi tương trợ tối đa 200.000.000<small>₫</small></h3>
                                 </div>
@@ -55,27 +103,27 @@
                                         <tbody>
                                             <tr>
                                                 <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
-                                                <td align="right">500.000</td>
+                                                <td align="right">99.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 19 - 29</td>
-                                                <td align="right">1.000.000</td>
+                                                <td align="right">199.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 30 - 39</td>
-                                                <td align="right">1.500.000</td>
+                                                <td align="right">299.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 40 - 49</td>
-                                                <td align="right">2.000.000</td>
+                                                <td align="right">399.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 50 - 59</td>
-                                                <td align="right">2.500.000</td>
+                                                <td align="right">499.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
-                                                <td align="right">3.000.000</td>
+                                                <td align="right">599.000</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -104,23 +152,23 @@
                                         <tbody>
                                             <tr>
                                                 <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
-                                                <td align="right">750.000</td>
+                                                <td align="right">149.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 19 - 29</td>
-                                                <td align="right">1.500.000</td>
+                                                <td align="right">299.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 30 - 39</td>
-                                                <td align="right">2.250.000</td>
+                                                <td align="right">499.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 40 - 49</td>
-                                                <td align="right">3.000.000</td>
+                                                <td align="right">499.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 50 - 59</td>
-                                                <td align="right">3.750.000</td>
+                                                <td align="right">749.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 60 - 65 (<span class="text-danger fz-12">2</span>)</td>
@@ -153,15 +201,15 @@
                                         <tbody>
                                             <tr>
                                                 <td>Từ 1 - 18 (<span class="text-danger fz-12">1</span>)</td>
-                                                <td align="right">1.250.000</td>
+                                                <td align="right">249.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 19 - 29</td>
-                                                <td align="right">2.500.000</td>
+                                                <td align="right">499.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 30 - 39</td>
-                                                <td align="right">3.750.000</td>
+                                                <td align="right">749.000</td>
                                             </tr>
                                             <tr>
                                                 <td>Từ 40 - 49</td>
