@@ -428,25 +428,25 @@
                     <div class="col-12">
                         <div class="ci-flow">
                             <div>
-                                <a href="">
+                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-1');">
                                     <i class="ci-flow__icon fad fa-money-check-pen"></i>
                                     <span class="ci-flow__link">Bước 1: <br>Đăng ký</span>
                                 </a>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-2');">
                                     <i class="ci-flow__icon fad fa-address-card"></i>
                                     <span class="ci-flow__link">Bước 2: <br>Đăng nhập</span>
                                 </a>
                             </div>
                             <div>
-                                <a href="">
+                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-3');">
                                     <i class="ci-flow__icon fad fa-ballot-check"></i>
                                     <span class="ci-flow__link">Bước 3: <br>Chọn gói kế hoạch tương trợ và kê khai thông tin</span>
                                 </a>
                             </div>
                             <div>
-                                <a href="" class="last">
+                                <a href="javascript:void(0);"  onclick="fancybox_modal('#step-4');" class="last">
                                     <i class="ci-flow__icon fad fa-credit-card"></i>
                                     <span class="ci-flow__link">Bước 4: <br>Thanh toán</span>
                                 </a>
