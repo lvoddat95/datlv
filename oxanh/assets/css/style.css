@@ -105,6 +105,8 @@ Tags:
   --g01-bg-color: #1f7fc1;
   --g02-bg-color: #43bb8b;
   --g03-bg-color: #cd952b;
+  --g04-bg-color: #cd952b;
+  --g05-bg-color: #bb4343;
 
   /* typography */
   --font-family-sans-serif: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -1089,6 +1091,9 @@ a:hover {
 .g03-bg-color {
   background-color: var(--g03-bg-color);
 }
+.g04-bg-color {
+  background-color: var(--g04-bg-color);
+}
 
 .ci-package-item:nth-of-type(1) .ci-package-item__top {
   background-color: var(--g01-bg-color);
@@ -1100,6 +1105,10 @@ a:hover {
 
 .ci-package-item:nth-of-type(3) .ci-package-item__top {
   background-color: var(--g03-bg-color);
+}
+
+.ci-package-item:nth-of-type(4) .ci-package-item__top {
+  background-color: red;
 }
 
 .ci-package-item:hover {
