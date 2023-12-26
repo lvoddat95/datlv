@@ -704,3 +704,67 @@
     </div>
 </div>
 <!-- End - Hoàn cảnh không có sự hỗ trợ lẫn nhau-->
+
+
+<!-- Bước đăng ký -->
+<div id="step-1" class="fancybox-modal fancybox-content-md">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            Bước 1: Đăng ký
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+        Người dùng đăng ký thông tin (họ và tên, ngày tháng năm sinh và số mobile/email, tên đăng nhập, Password ..vv.
+        Sau khi hoàn thành nhập thông tin, người dùng sẽ nhận được tin nhắn <span class="fw-medium">OTP/MÃ THAM GIA THÀNH VIÊN </span> gửi vào mobile/email để bổ sung bảo mật đăng nhập.
+    </div>
+</div>
+<div id="step-2" class="fancybox-modal fancybox-content-md">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            Bước 2: Đăng nhập
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+        Đăng nhập bằng tên đăng nhập (vừa khai báo), mật khẩu và mã <span class="fw-medium">OTP/MÃ THAM GIA THÀNH VIÊN </span> (gửi qua tin nhắn/email)
+    </div>
+</div>
+<!-- <div id="step-3" class="fancybox-modal fancybox-content-md">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            Bước 3: Kê khai thông tin
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+        <p class="mb-3">Vào kê khai thông tin. Nếu đáp ứng yêu cầu của nền tảng thì kích vào nút nộp hồ sơ để chụp ảnh hoặc mở files (trên máy tính/máy di động) hồ sơ khám bệnh.</p>
+        <p class="mb-3">Trường hợp tại thời điểm kê khai thông tin, thành viên chưa sẵn sàng có hồ sơ khám bệnh thì bấm vào nút “nộp sau” để nộp vào thời gian chờ.</p>
+    </div>
+</div> -->
+<div id="step-3" class="fancybox-modal fancybox-content-md">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            Bước 3: Chọn gói kế hoạch tương trợ và kê khai thông tin
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+        <p class="mb-3"><b>Chọn tham gia gói tương trợ</b> <span class="fw-medium">(G1, G2 hay G3)</span> để nộp phí thành viên và chính thức trở thành thành viên của nền tảng vào lúc 0h00 ngày kế tiếp.</p>
+        <p class="mb-0"><b>Vào kê khai thông tin.</b> Nếu đáp ứng yêu cầu của nền tảng thì kích vào nút nộp hồ sơ để chụp ảnh hoặc mở files (trên máy tính/máy di động) hồ sơ khám bệnh.</p>
+        <p class="mb-0">Trường hợp tại thời điểm kê khai thông tin, thành viên chưa sẵn sàng có hồ sơ khám bệnh thì bấm vào nút “nộp sau” để nộp vào thời gian chờ.</p>
+    </div>
+</div>
+<div id="step-4" class="fancybox-modal fancybox-content-lg">
+    <div class="fancybox-header">
+        <div class="fancybox-title text-center">
+            Bước 4: Thanh toán (có clip hướng dẫn)
+        </div>
+    </div>
+    <div class="fancybox-body fz-16 ">
+        <p class="mb-3">Nếu chọn thanh toán qua ngân hàng app/web sẽ tự động link đến các tài khoản Ngân hàng để thanh toán luôn.</p>
+        <p class="mb-3">Hoặc chủ động thanh toán ngoài bằng chuyển khoản thì nội dung thanh toán ghi đúng cú pháp là <span class="fw-medium">“thanh toán cho HỌ TÊN, MÃ THAM GIA THÀNH VIÊN”</span> của bạn.</p>
+        <p class="mb-3">Bạn cũng có thể thanh toán phí thành viên bằng các loại thẻ và ví điện tử.</p>
+        <p class="mb-3">Bạn cũng có thể đến các bưu cục để nhờ chuyển tiền, nhờ người khác chuyển khoản hộ, thậm chí trực tiếp đến văn phòng Ô Xanh để nộp.</p>
+        <p class="mb-3">Nhưng mọi trường hợp khi thanh toán đều phải ghi rõ nội dung theo cú pháp: <span class="fw-medium">“thanh toán cho HỌ TÊN, MÃ THAM GIA THÀNH VIÊN”</span> của bạn.</p>
+        <p class="mb-3">Nếu thanh toán mà bạn không ghi rõ nội dung thanh toán theo đúng cú pháp, phần mềm sẽ không nhận ra bạn đã thanh toán,
+            trường hợp đó bạn cần điện thoại cho tổng đài hoặc hotline của Ô Xanh để nhờ trơ giúp.</p>
+
+    </div>
+</div>
