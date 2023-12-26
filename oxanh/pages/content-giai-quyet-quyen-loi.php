@@ -107,7 +107,7 @@
             Nộp trực tiếp bản chính hoặc bản sao công chứng của các tài liệu gốc tại văn phòng Ô Xanh hoặc cho điều tra viên của Ô Xanh.
         </div>
         <ul class="list-unstyled fz-16">
-            <li><i class="fad main-color fa-fw fa-location-dot me-2"></i>Địa chỉ: Số 5 Tú Mỡ, quận Cầu Giấy, TP.Hà Nội</li>
+            <li><i class="fad main-color fa-fw fa-location-dot me-2"></i>Địa chỉ: SH19, đường Mạc Thái Tổ, Yên Hoà, Cầu Giấy, Hà Nội</li>
             <li><i class="fad main-color fa-fw fa-phone me-2"></i>Hotline: <a class="dark-color" href="tel:+0339869338">0339.869.338</a> </li>
         </ul>
         <div class="ci-package-docs mt-0">
@@ -184,7 +184,7 @@
                         </span>
                         <h3 class="ci-claim-process__title">Trường hợp cần trao đổi, tôi liên hệ với Ô Xanh bằng cách nào?</h3>
                         <p class="ci-claim-process__content">Ô Xanh luôn sẵn sàng lắng nghe và trao đổi để giải đáp các câu hỏi và thắc mắc của Quý thành viên.
-                            Hãy liên hệ với chúng tôi qua Tổng đài chăm sóc khách hàng hoặc số Hotline <a href="tel:0339869338">0339 869 338</a>, Zalo chat hoặc gửi email đến địa chỉ <a href="mailto:contact@oxanh.vn">contact@oxanh.vn</a></p>
+                            Hãy liên hệ với chúng tôi qua Tổng đài chăm sóc khách hàng hoặc số Hotline <a href="tel:0339869338">0339 869 338</a>, Zalo chat hoặc gửi email đến địa chỉ <a href="mailto:hotrothanhvien@oxanh.vn">hotrothanhvien@oxanh.vn</a></p>
                     </div>
                 </div>
 
