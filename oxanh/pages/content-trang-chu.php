@@ -268,6 +268,40 @@
     </div>
 </div>
 
+<div class="ci-block ci-couter-block bg-grey">
+    <div class="container">
+        <!-- <div class="ci-heading ">
+            <h2 class="ci-heading__main">Thành tựu Ô Xanh</h2>
+        </div> -->
+        <div class="row py-md-5 py-0">
+            <div class="ci-couter col-md-3 col-sm-6 mb-md-0 mb-5">
+                <div class="title-info">
+                    <p class="title-2">Thành viên đăng ký</p>
+                </div>
+                <span class="couter-number" data-number="10833">0</span>
+            </div>
+
+            <div class="ci-couter col-md-3 col-sm-6 mb-md-0 mb-5">
+                <div class="title-info">
+                    <p class="title-2">Thành viên tương trợ</p>
+                </div>
+                <span class="couter-number" data-number="600">0</span>
+            </div>
+
+            <div class="ci-couter col-md-3 col-sm-6 mb-md-0 mb-5">
+                <div class="title-info">
+                    <p class="title-2">Mạng lưới ÔXanh toàn quốc</p>
+                </div>
+                <span class="couter-number" data-number="63">0</span>
+                <span class="extra">
+                    <p dir="ltr">Tỉnh /<br>
+                        thành phố</p>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="ci-block overflow-hidden">
     <div class="container">
         <div class="ci-heading ">
@@ -446,7 +480,7 @@
                                 </a>
                             </div>
                             <div>
-                                <a href="javascript:void(0);"  onclick="fancybox_modal('#step-4');" class="last">
+                                <a href="javascript:void(0);" onclick="fancybox_modal('#step-4');" class="last">
                                     <i class="ci-flow__icon fad fa-credit-card"></i>
                                     <span class="ci-flow__link">Bước 4: <br>Thanh toán</span>
                                 </a>

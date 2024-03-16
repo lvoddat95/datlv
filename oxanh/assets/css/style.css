@@ -7462,6 +7462,70 @@ li.google {
   height: 370px;
 }
 
+
+.ci-couter-block::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: url(../img/bg-world-map.png) no-repeat 80% 0px #f7f9fb;
+}
+
+.ci-couter-block .container {
+  position: relative;
+}
+
+.ci-couter .title-info {
+  display: table;
+  margin-bottom: 10px;
+}
+
+.ci-couter .title-info .title-2 {
+  font-weight: 500;
+  color: var(--dark);
+  font-size: 16px;
+  display: table-cell;
+  vertical-align: bottom;
+  cursor: context-menu;
+}
+
+.ci-couter .couter-number {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 0.8;
+  text-align: left;
+  color: var(--main-color)
+}
+
+.ci-couter .extra {
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.5;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+
+.ci-couter:last-child {
+  margin-bottom: 0px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 768px) and (max-width: 991.98px) {
   .profile-banner-large {
     height: 270px;
@@ -7471,5 +7535,12 @@ li.google {
 @media only screen and (max-width: 767.98px) {
   .profile-banner-large {
     height: 190px;
+  }
+
+  .ci-couter .couter-number {
+    font-size: 36px;
+  }
+  .ci-couter-block::before{
+    background-size: 90%;
   }
 }

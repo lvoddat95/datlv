@@ -1,4 +1,7 @@
 $(function () {
+
+
+
 	if ($(".ci-package-slider").length > 0) {
 		var swiper_slider = new Swiper(".ci-slider", {
 			slidesPerView: 1,
@@ -151,8 +154,8 @@ $(function () {
 
 	$(".ci-btn-mua-bh").on("click", function () {
 		$("html, body").animate({
-				scrollTop: $("#ci-package-block").offset().top,
-			},
+			scrollTop: $("#ci-package-block").offset().top,
+		},
 			900
 		);
 	});
@@ -160,8 +163,8 @@ $(function () {
 	// Len dau trang
 	$(".go-top").on("click", function () {
 		$("html, body").animate({
-				scrollTop: 0,
-			},
+			scrollTop: 0,
+		},
 			500
 		);
 	});
@@ -226,6 +229,45 @@ $(function () {
 				break;
 		}
 	});
+
+
+	if ($(".ci-couter-block").length > 0) {
+		var a = 0;
+		$(window).scroll(function () {
+			var oTop = $(".ci-couter-block").offset().top - window.innerHeight;
+			if (a == 0 && $(window).scrollTop() > oTop) {
+				$(".couter-number").each(function () {
+					var $this = $(this),
+						countTo = $this.attr("data-number");
+					$({
+						countNum: $this.text()
+					}).animate(
+						{
+							countNum: countTo
+						},
+
+						{
+							duration: 1000,
+							easing: "swing",
+							step: function () {
+								//$this.text(Math.ceil(this.countNum));
+								$this.text(
+									Math.ceil(this.countNum).toLocaleString("en")
+								);
+							},
+							complete: function () {
+								$this.text(
+									Math.ceil(this.countNum).toLocaleString("en")
+								);
+								//alert('finished');
+							}
+						}
+					);
+				});
+				a = 1;
+			}
+		});
+	}
 });
 
 // Show pass
@@ -369,7 +411,7 @@ var chose_payment = function (p_this) {
 	}
 };
 
-var chosse_bank = function (p_this) {};
+var chosse_bank = function (p_this) { };
 
 $("#payment-info .img-bank").on("click", function (e) {
 	$("#payment-info .img-bank").removeClass("active");
@@ -744,7 +786,7 @@ function open_window_center(url, w = 800, h = 600) {
 function coppy_url() {
 	// Lấy URL hiện tại của trang
 	var currentUrl = window.location.href;
-	
+
 	// Sao chép URL vào clipboard
 	navigator.clipboard.writeText(currentUrl);
-  }
+}
